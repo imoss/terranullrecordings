@@ -13,4 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require cufon-yui
+//= require Vitesse_Sans_Medium_350.font
 //= require_tree .
+
+$(document).ready(function() {
+  Cufon.replace('h3');
+});
