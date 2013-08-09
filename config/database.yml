@@ -5,7 +5,7 @@ development:
   timeout: 5000
 
 test:
-  adapter: postgres
+  adapter: postgresql
   database: terranull_test
   pool: 5
   timeout: 5000

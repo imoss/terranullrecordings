@@ -1,2 +1,97 @@
-#logo
-%h3 COMING SOON
+%script{type: 'text/x-handlebars', data: {'template-name'=> 'home'}}
+  #header-wrapper
+    #header
+      #nav-wrapper-left
+        %ul.nav.primary-nav.primary-nav-left
+          %li
+            {{#linkTo 'about' class='cool-font'}}About{{/linkTo}}
+          %li
+            {{#linkTo 'releases' class='cool-font'}}Releases{{/linkTo}}
+        .clear
+      #small-logo
+      #nav-wrapper-right
+        %ul.nav.primary-nav.primary-nav-right
+          %li
+            {{#linkTo 'news' class='cool-font'}}News{{/linkTo}}
+          %li
+            {{#linkTo 'podcasts' class='cool-font'}}Podcasts{{/linkTo}}
+        .clear
+      .clear
+    .clear
+  #main
+    #secondary-content
+      {{outlet}}
+    .clear
+  #footer-wrapper
+    #footer
+      .cool-font
+        &copy; 2013 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'about'}}
+  .content.centered
+    #main-title
+    .copy
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor vitae turpis ac viverra. Donec elit tortor, malesuada vel varius ut, porttitor ac lectus. Etiam nec pretium mi. Mauris semper nunc est, quis pellentesque turpis mollis facilisis. Aliquam ullamcorper metus vitae arcu consectetur ultrices at quis ipsum. Nullam turpis risus, iaculis a metus sit amet, imperdiet suscipit velit. Cras vel diam pharetra, tempor magna eu, facilisis leo. Nullam eu pulvinar nunc, nec ultrices risus.
+
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
+  .copy
+  %h2.center-text
+    COMING SOON
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'news'}}
+  {{#each model}}
+  .copy.news-item
+    %h2
+      {{title}}
+    %div
+      {{markdown content}}
+  {{/each}}
+
+  #tertiary-content
+    {{outlet}}
+  .clear
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'releases'}}
+  #tertiary-content
+    {{outlet}}
+    .clear
+
+  #release-thumbs-wrapper
+    %ul#release-thumbs
+      {{#each model}}
+      <li>
+      {{#linkTo 'release' this class='cool-font release-thumb'}}
+      <img {{bindAttr src="cover_thumbnail_src"}} height='200px' class="cover-art"/>
+      .release-thumb-copy
+        .release-thumb-catalog-number
+          {{catalog_number}}
+        .release-thumb-title
+          {{title}}
+      {{/linkTo}}
+      .clear
+      </li>
+      {{/each}}
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'news-item'}}
+  .copy.news-item
+    %h2
+      {{model.title}}
+    %div
+      {{markdown model.content}}
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'release'}}
+  <img {{bindAttr src="model.cover_src"}} height='400px' class="cover-art"/>
+  .copy.left.release-copy
+    .bar
+    .release-artist
+      {{model.artist}}
+    .release-title
+      {{model.title}}
+    .release-catalog-number
+      {{model.catalog_number}}
+      %br
+      Released
+    .bar
+    .release-description
+      {{markdown model.description}}

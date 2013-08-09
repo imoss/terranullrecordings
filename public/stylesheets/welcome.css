@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+h3 {
+  font-size: 12px;
+  letter-spacing: 70px;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  background-image: url('/assets/terra_null_logo-splatter_new.jpg');
+  height: 646px;
+  width: 800px;
+  background-repeat: no-repeat;
+}

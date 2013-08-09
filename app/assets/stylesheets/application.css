@@ -1,5 +1,6 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
+ *
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -8,23 +9,312 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require bootstrap
  *= require_self
- *= require_tree .
  */
 
+/* MAIN PAGE */
+
 body {
-  margin: 0;
+  background-color: #000;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
 }
 
-h3 {
-  font-size: 12px;
-  letter-spacing: 70px;
+ul {
+  list-style-type: none;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #EC008B;
+  margin-top: 10px;
+  letter-spacing: 18px;
+  font-style: normal;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+h1, h3 {
+  margin-top: 10px;
+  letter-spacing: 5px;
+  font-style: normal;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.center-text {
   text-align: center;
 }
 
-#logo {
+#main {
+  padding-top: 35px;
+  width: 1000px;
   margin: 0 auto;
-  background-image: url(/assets/ink_blot_logo.jpg);
-  height: 650px;
-  width: 700px;
+  background-color: #000;
+}
+
+.copy {
+  font-size: 14px;
+  color: #ccc;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+.content {
+  width: 800px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+#main-title {
+  background-image: url('/assets/terra_null-logotype-white.png');
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 30px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+/* MAIN PAGE - MAIN NAV */
+
+#header-wrapper {
+  background-color: #fff;
+  height: 100px;
+}
+
+#header {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#nav-wrapper-left {
+  width: 425px;
+  float: left;
+}
+
+#nav-wrapper-right {
+  width: 425px;
+  float: right;
+}
+
+#small-logo {
+  background-image: url('/assets/logo_white_background_small.png');
+  height: 100px;
+  width: 100px;
+  display: block;
+  position: absolute;
+  left: 450px;
+}
+
+.primary-nav {
+  letter-spacing: 7px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.primary-nav li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 212px;
+  height: 100px;
+}
+
+.primary-nav li a {
+  color: #000;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  text-indent: -999999px;
+  display: block;
+  width: 128px;
+  height: 26px;
+}
+
+.primary-nav li a:hover {
+  text-indent: 0;
+  background-color: #fff;
+  background-image: none;
+}
+
+.primary-nav-left li a {
+  background-image: url('/assets/menu_icon_left.png');
+  background-position: 0 -5px;
+  background-repeat: no-repeat;
+}
+
+.primary-nav-right li a {
+  float: right;
+  background-image: url('/assets/menu_icon_right.png');
+  background-position: 0 -5px;
+  background-repeat: no-repeat;
+}
+
+.nav .active {
+  text-indent: 0;
+  background-color: #fff;
+  background-image: none;
+}
+
+.nav .active:hover {
+  text-indent: 0;
+  background-color: #fff;
+  background-image: none;
+}
+
+/* TERTIARY CONTAINER */
+
+#tertiary-content {
+}
+
+/* FOOTER */
+
+#footer-wrapper {
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+
+/* RELEASE PAGE */
+
+#release-thumbs-wrapper {
+  position: absolute;
+  top: 120px;
+  width: 1000px;
+  padding: 0;
+  margin: 0;
+}
+
+#release-thumbs {
+  margin: 0 0 90px 0;
+  padding: 20px 0;
+  float: left;
+}
+
+.release-thumb-catalog-number {
+  color: #ccc;
+  letter-spacing: 10px;
+}
+
+.release-thumb-title {
+  color: #EC008B;
+  letter-spacing: 10px;
+}
+
+#release-thumbs li{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#release-thumbs li img{
+  padding-right: 20px;
+}
+
+.release-thumb {
+  display: block;
+  float: left;
+  width: 475px;
+  height: 200px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.release-thumb:hover {
+  background-color: #222;
+}
+
+#release-thumbs .active {
+  background-color: #222;
+}
+
+.release-thumb-copy {
+  font-size: 14px;
+  word-spacing: 475px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.release-copy {
+  padding-top: 0px;
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.bar {
+  width: 496px;
+  height: 10px;
+  background-image: url('/assets/bar.png');
+}
+
+.cover-art {
+  float: left;
+}
+
+.release-artist {
+  color: #ccc;
+  letter-spacing: 10px;
+}
+
+.release-title {
+  color: #EC008B;
+  letter-spacing: 10px;
+}
+
+.release-description {
+  color: #999;
+  letter-spacing: 3px;
+}
+
+.release-catalog-number {
+  color: #999;
+  letter-spacing: 10px;
+  padding-bottom: 50px;
+}
+
+/* NEWS ITEM PAGE */
+
+.news-item {
+  padding: 0;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }

@@ -1,0 +1,20 @@
+title: Shiver Shrapnel EP|
+artist: Cirrus|
+catalog_number: TERNUL001|
+cover_src: /assets/terranull-02.jpg|
+cover_thumbnail_src: /assets/art_sample.png|
+description:
+A. Cirrus - Shiver Shrapnel<br/>
+B. Cirrus - Shiver Shrapnel (L 33 Remix)<br/>
+C. Cirrus - Shiver Shrapnel (Woulg Remix)<br/>
+D. Cirrus - Tension and Confusion
+****
+title: Relate. Eject. EP|
+artist: Create Her|
+catalog_number: TERNUL002|
+cover_src: /assets/art_sample.png|
+cover_thumbnail_src: /assets/terranull-02.jpg|
+description:
+A. Create Her - Relate. Eject.<br/>
+B. Create Her - ?<br/>
+C. Create Her - Relate. Eject. (Es.tereo Remix)
