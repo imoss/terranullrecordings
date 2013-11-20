@@ -19,17 +19,52 @@
 //= require cufon-yui
 //= require Vitesse_Sans_Medium_350.font
 //= require_self
-//= require terranullrecordings
 
 // for more details see: http://emberjs.com/guides/application/
 Terranullrecordings = Ember.Application.create({});
 
 //= require_tree .
 
-Ember.Handlebars.helper('markdown', function(value) {
-  var converter = new Showdown.converter();
-  return new Handlebars.SafeString(converter.makeHtml(value));
+$(document).ready(function() {
+  return Cufon.replace(".cool-font");
 });
+
+//**************** STORE ****************
+
+DS.RESTAdapter.configure("plurals", {
+  news_item: "news"
+});
+
+Terranullrecordings.Store = DS.Store.extend({
+  revision: 11,
+  adapter: DS.RESTAdapter.create()
+});
+
+//**************** MODELS ****************
+
+Terranullrecordings.NewsItem = DS.Model.extend({
+  title: DS.attr("string"),
+  content: DS.attr("string")
+});
+
+Terranullrecordings.Podcast = DS.Model.extend({
+  title: DS.attr("string"),
+  artist: DS.attr("string"),
+  description: DS.attr("string"),
+  listen_link: DS.attr("string"),
+  embed_code: DS.attr("string")
+});
+
+Terranullrecordings.Release = DS.Model.extend({
+  title: DS.attr("string"),
+  description: DS.attr("string"),
+  catalog_number: DS.attr("string"),
+  artist: DS.attr("string"),
+  cover_src: DS.attr("string"),
+  cover_thumbnail_src: DS.attr("string")
+});
+
+//**************** VIEWS ****************
 
 Terranullrecordings.ReleasesView = Ember.View.extend({
   templateName: 'releases',
@@ -75,4 +110,66 @@ Terranullrecordings.ReleaseView = Ember.View.extend({
   willClearRender: function() {
     $('#release-thumbs-wrapper').animate({top:'120px'})
   }
+});
+
+//**************** HELPERS ****************
+
+Ember.Handlebars.helper('markdown', function(value) {
+  var converter = new Showdown.converter();
+  return new Handlebars.SafeString(converter.makeHtml(value));
+});
+
+//**************** ROUTES ****************
+
+Terranullrecordings.HomeRoute = Ember.Route.extend({
+  redirect: function() {
+    return this.transitionTo("about");
+  }
+});
+
+Terranullrecordings.NewsRoute = Ember.Route.extend({
+  model: function() {
+    return Terranullrecordings.NewsItem.find();
+  }
+});
+
+Terranullrecordings.PodcastsRoute = Ember.Route.extend({
+  model: function() {
+    return Terranullrecordings.Podcast.find();
+  }
+});
+
+Terranullrecordings.ReleasesRoute = Ember.Route.extend({
+  model: function() {
+    return Terranullrecordings.Release.find();
+  }
+});
+
+//**************** ROUTER ****************
+
+Terranullrecordings.Router.map(function() {
+  return this.resource('home', {
+    path: '/'
+  }, function() {
+    this.resource('about', {
+      path: '/about'
+    });
+    this.resource('podcasts', {
+      path: '/podcasts'
+    });
+    this.resource('news', {
+      path: '/news'
+    }, function() {
+      return this.resource('news-item', {
+        path: ':news_item_id'
+      });
+    });
+    return this.resource('releases', {
+      path: '/releases'
+    }, function() {
+      return this.resource('release', {
+        path: ':release_id'
+      });
+    });
+  });
 });
