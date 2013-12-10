@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130816152600) do
+ActiveRecord::Schema.define(version: 20131210134745) do
 
   create_table "news_items", force: true do |t|
     t.string   "title"
@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20130816152600) do
     t.string "cover_src"
     t.string "cover_thumbnail_src"
     t.text   "description"
-    t.date   "release_date"
+    t.string "release_date"
   end
 
 end
