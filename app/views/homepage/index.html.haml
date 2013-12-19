@@ -30,9 +30,33 @@
 %script{type: 'text/x-handlebars', data: {'template-name' => 'about'}}
   .content.centered
     #main-title
-    .copy
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor vitae turpis ac viverra. Donec elit tortor, malesuada vel varius ut, porttitor ac lectus. Etiam nec pretium mi. Mauris semper nunc est, quis pellentesque turpis mollis facilisis. Aliquam ullamcorper metus vitae arcu consectetur ultrices at quis ipsum. Nullam turpis risus, iaculis a metus sit amet, imperdiet suscipit velit. Cras vel diam pharetra, tempor magna eu, facilisis leo. Nullam eu pulvinar nunc, nec ultrices risus.
-
+    .copy.about-text
+      Terra Null, taken from the latin expression Terra Nullius derived from the Roman law meaning "Land belonging to no one". With this idea we at Terra Null Recordings try to cultivate an aesthetic that evokes a sense of organic evolution in both art and music. A world that belongs to nature rather than man naturally cultivates the unfamiliar and strange and is undeterred by the constructs of current human society and culture. We try to represent this as best we can through an eclectic collection of electronic music and digital artwork that we firmly believe pushes boundaries in the best way possible.
+      %br
+      %br
+      Find us on:
+      %ul
+        %li
+          %a{ href: 'https://www.facebook.com/terranullrecordings', target: '_blank' } Facebook
+        %li
+          %a{ href: 'https://twitter.com/terranullrecs', target: '_blank' } Twitter
+        %li
+          %a{ href: 'https://soundcloud.com/terra-null-recordings', target: '_blank' } Soundcloud
+      %br
+      SEND DEMOS TO:
+      %ul
+        %li
+          TerraNullRecordings [at] gmail [dot] com
+      Demos MUST BE:
+      %ul
+        %li
+          Full tracks (no clips)
+        %li
+          320 kbs mp3s (no wavs or aiffs)
+        %li
+          Have track name, artist name, and contact info included
+      %br
+      %br
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
   .copy
@@ -91,7 +115,7 @@
     .release-catalog-number
       {{model.catalog_number}}
       %br
-      Released
+      Released {{model.release_date}}
     .bar
     .release-description
       {{markdown model.description}}

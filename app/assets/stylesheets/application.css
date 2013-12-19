@@ -23,6 +23,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 15px;
 }
 
 body {
@@ -47,7 +48,17 @@ h1, h3 {
   text-transform: uppercase;
 }
 
+a {
+  color: #EC008B;
+  text-decoration: none;
+}
+
 a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  outline: none;
   text-decoration: none;
 }
 
@@ -308,6 +319,13 @@ a:hover {
   color: #999;
   letter-spacing: 10px;
   padding-bottom: 50px;
+}
+
+/* ABOUT PAGE */
+
+.about-text {
+  line-height: 35px;
+  font-size: 17px;
 }
 
 /* NEWS ITEM PAGE */

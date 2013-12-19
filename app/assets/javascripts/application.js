@@ -61,7 +61,8 @@ Terranullrecordings.Release = DS.Model.extend({
   catalog_number: DS.attr("string"),
   artist: DS.attr("string"),
   cover_src: DS.attr("string"),
-  cover_thumbnail_src: DS.attr("string")
+  cover_thumbnail_src: DS.attr("string"),
+  release_date: DS.attr("string")
 });
 
 //**************** VIEWS ****************
@@ -123,9 +124,10 @@ Ember.Handlebars.helper('markdown', function(value) {
 
 Terranullrecordings.HomeRoute = Ember.Route.extend({
   redirect: function() {
-    return this.transitionTo("about");
+    return this.transitionTo("releases");
   }
 });
+
 
 Terranullrecordings.NewsRoute = Ember.Route.extend({
   model: function() {

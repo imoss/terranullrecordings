@@ -1,15 +1,12 @@
-title: title number 1|
+title: TERNUL001 Announced!|
+content:
+Listen <a href="/#/releases/shiver-shrapnel-ep">here.</a>
+
+The inauguration of Terra Null Recordings marks a powerful coming together of forces from all over the globe, converging on this, a dark and ominous EP that foreshadows much of what is to come from the young label. American label founder Cirrus provides the EP’s title track ‘Shiver Shrapnel’, which hits hard and fast with an animalistic ferocity that is completely untamed. Meanwhile, from the other side of the world, established drum and bass beatsmith L 33 flips the ferocious title track on its head, delivering a brilliantly minimal experiment in pounding bass that feels suited only for the deepest and darkest caves that this planet has to offer. From the north, hailing from Quebec, the IDM prodigy Woulg establishes a presence on this EP that is immense. Descending upon the title track and sculpting it into something that seems to hardly belong on this earth. It simply must be listened to to be believed. Closing out the EP Cirrus returns the EP from outer space, landing it directly into the dense wilderness of ‘Tension and Confusion’, a track which aptly evokes these feelings as if the listener was suddenly lost in a harsh and unforgiving jungle. You are sure to come out on the other side of this EP dripping wet and hungry for more from Terra Null Recordings.
+****
+title: Welcome to Terra Null|
 content:
 Welcome to the Terra Null Recordings
 official website. Check back often for
 the latest news, events, and release
 information.
-****
-title: title number 2|
-content:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisi at turpis scelerisque consequat. Proin nec pharetra erat. Phasellus rhoncus sit amet libero ac pretium. Cras eu velit facilisis, volutpat ipsum vitae, adipiscing dui. Sed tincidunt tempus velit, eu dictum felis luctus a. Sed condimentum leo sit amet nulla hendrerit, nec pretium turpis rutrum. Proin accumsan in augue nec commodo. Nunc vitae dui id libero commodo luctus nec sed augue. Etiam sit amet vestibulum augue, sed ullamcorper tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Phasellus suscipit tellus orci, at ultricies lacus volutpat adipiscing. Maecenas risus quam, facilisis quis ultricies eget, convallis vel ante.
-
-Nullam id pharetra enim. Mauris aliquam non magna sed tristique. Ut imperdiet nulla et lectus dapibus, ultricies scelerisque dui eleifend. Cras venenatis eros in venenatis tincidunt. Nulla pulvinar adipiscing nisi, tincidunt dictum purus semper eget. Sed sollicitudin nibh libero, non semper quam tincidunt et. Mauris in massa eu nisi varius dictum. Vivamus varius, arcu ac volutpat eleifend, justo urna congue erat, ac dictum augue libero id arcu. Donec massa diam, suscipit sed porttitor a, interdum sit amet lacus. Nulla dui velit, consectetur sed leo vel, aliquet ultricies mauris. In malesuada at erat ut adipiscing. Nullam semper sit amet libero in suscipit. Fusce varius sagittis dolor, vitae interdum velit pulvinar id.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisi at turpis scelerisque consequat. Proin nec pharetra erat. Phasellus rhoncus sit amet libero ac pretium. Cras eu velit facilisis, volutpat ipsum vitae, adipiscing dui. Sed tincidunt tempus velit, eu dictum felis luctus a. Sed condimentum leo sit amet nulla hendrerit, nec pretium turpis rutrum. Proin accumsan in augue nec commodo. Nunc vitae dui id libero commodo luctus nec sed augue. Etiam sit amet vestibulum augue, sed ullamcorper tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Phasellus suscipit tellus orci, at ultricies lacus volutpat adipiscing. Maecenas risus quam, facilisis quis ultricies eget, convallis vel ante.
-
