@@ -43,8 +43,8 @@ module Slurper
     def import_record(items)
       item = associated_class.new
       items.split('|').each do |attribute|
-        key, val = attribute.split(':')
-        item.send("#{key.gsub(/\n/, '')}=", val.strip)
+        key, *val = attribute.split(':')
+        item.send("#{key.gsub(/\n/, '')}=", val.join(':').strip)
       end
       item.save!
     end
