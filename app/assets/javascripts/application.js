@@ -144,6 +144,10 @@ Terranullrecordings.PodcastsRoute = Ember.Route.extend({
 Terranullrecordings.ReleasesRoute = Ember.Route.extend({
   model: function() {
     return Terranullrecordings.Release.find();
+  },
+  redirect: function() {
+    var release = this.modelFor('releases').get('firstObject');
+    this.transitionTo('release', release);
   }
 });
 
