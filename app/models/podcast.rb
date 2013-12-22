@@ -10,7 +10,8 @@ class Podcast < ActiveRecord::Base
       artist: artist,
       description: description,
       listen_link: listen_link,
-      embed_code: embed_code
+      embed_code: embed_code,
+      date_text: date_text
     }
   end
 end

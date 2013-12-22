@@ -7,6 +7,7 @@ class NewsItem < ActiveRecord::Base
     {
       id: slug,
       title: title,
+      date_text: date_text,
       content: content
     }
   end

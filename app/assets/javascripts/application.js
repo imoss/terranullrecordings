@@ -40,7 +40,8 @@ Terranullrecordings.ApplicationAdapter = DS.MyRESTAdapter;
 
 Terranullrecordings.NewsItem = DS.Model.extend({
   title: DS.attr("string"),
-  content: DS.attr("string")
+  content: DS.attr("string"),
+  date_text: DS.attr("string")
 });
 
 Terranullrecordings.Podcast = DS.Model.extend({
@@ -48,7 +49,8 @@ Terranullrecordings.Podcast = DS.Model.extend({
   artist: DS.attr("string"),
   description: DS.attr("string"),
   listen_link: DS.attr("string"),
-  embed_code: DS.attr("string")
+  embed_code: DS.attr("string"),
+  date_text: DS.attr("string")
 });
 
 Terranullrecordings.Release = DS.Model.extend({

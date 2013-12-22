@@ -337,3 +337,10 @@ a:active {
   margin: 0 auto;
   padding-bottom: 20px;
 }
+
+.news-date-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #999;
+  padding-bottom: 25px;
+}
