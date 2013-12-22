@@ -160,7 +160,7 @@ a:active {
   letter-spacing: 10px;
   text-transform: uppercase;
   margin-top: 40px;
-  text-indent: -999999px;
+  /* text-indent: -999999px; */
   display: block;
   width: 128px;
   height: 26px;
@@ -173,28 +173,29 @@ a:active {
 }
 
 .primary-nav-left li a {
-  background-image: url('/assets/menu_icon_left.png');
-  background-position: 0 -5px;
-  background-repeat: no-repeat;
+  /* background-image: url('/assets/menu_icon_left.png'); */
+  /* background-position: 0 -5px; */
+  /* background-repeat: no-repeat; */
 }
 
 .primary-nav-right li a {
   float: right;
-  background-image: url('/assets/menu_icon_right.png');
-  background-position: 0 -5px;
-  background-repeat: no-repeat;
+  /* background-image: url('/assets/menu_icon_right.png'); */
+  /* background-position: 0 -5px; */
+  /* background-repeat: no-repeat; */
 }
 
 .nav .active {
-  text-indent: 0;
-  background-color: #fff;
-  background-image: none;
+  /* text-indent: 0; */
+  /* background-color: #fff; */
+  /* background-image: none; */
+  font-weight: bold;
 }
 
 .nav .active:hover {
-  text-indent: 0;
-  background-color: #fff;
-  background-image: none;
+  /* text-indent: 0; */
+  /* background-color: #fff; */
+  /* background-image: none; */
 }
 
 /* TERTIARY CONTAINER */
@@ -225,8 +226,8 @@ a:active {
 /* RELEASE PAGE */
 
 #release-thumbs-wrapper {
-  position: absolute;
-  top: 120px;
+  /* position: absolute; */
+  /* top: 120px; */
   width: 1000px;
   padding: 0;
   margin: 0;
@@ -325,7 +326,7 @@ a:active {
 
 .about-text {
   line-height: 35px;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 /* NEWS ITEM PAGE */

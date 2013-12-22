@@ -100,13 +100,13 @@ Terranullrecordings.ReleaseView = Ember.View.extend({
   isVisible: false,
   didInsertElement: function() {
     var that = this
-    $('#release-thumbs-wrapper').animate({top:'555px'}, function(){
+    // $('#release-thumbs-wrapper').animate({top:'555px'}, function(){
       that.$().hide().fadeIn("slow");
-    })
-  },
-  willClearRender: function() {
-    $('#release-thumbs-wrapper').animate({top:'120px'})
-  }
+    // })
+  }//,
+  // willClearRender: function() {
+  //   $('#release-thumbs-wrapper').animate({top:'120px'})
+  // }
 });
 
 //**************** HELPERS ****************
