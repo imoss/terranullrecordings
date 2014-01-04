@@ -55,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 a:hover {
   text-decoration: none;
   color: #fff;
@@ -107,6 +111,14 @@ a:active {
   height: 30px;
   background-position: center;
   margin-bottom: 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+.display-none {
+  display: none;
 }
 
 /* MAIN PAGE - MAIN NAV */
@@ -363,4 +375,55 @@ a:active {
   font-size: 10px;
   color: #999;
   padding-bottom: 25px;
+}
+
+/* PODCAST PAGE */
+
+#podcasts li {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.podcast-thumbnail {
+  padding-right: 20px;
+}
+
+.bar-long {
+  width: 700px;
+  height: 10px;
+  background-image: url('/assets/bar-long.png');
+}
+
+.podcast-copy {
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.podcast-title {
+  color: #ccc;
+  letter-spacing: 10px;
+}
+
+.podcast-artist {
+  color: #EC008B;
+  letter-spacing: 10px;
+}
+
+.podcast-embed {
+  padding-top: 8px;
+}
+
+.show-tracklist {
+  color: #EC008B;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.podcast-tracklist {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 20px;
 }

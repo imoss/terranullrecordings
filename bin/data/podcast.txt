@@ -1,10 +1,28 @@
 title: NullCast 001|
 artist: Cirrus|
-listen_link: http://www.google.com|
-description:
-Tracklist:
-....
-....
-....
-....
-....
+embed_code:
+<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+thumbnail_src: /assets/nullcast001-logo-small.jpg|
+tracklist:
+Cirrus - Shiver Shrapnel [Terra Null Recordings]<br/>
+Cirrus - Shiver Shrapnel (L 33 Remix) [Terra Null Recordings]<br/>
+Detail - Pressure [Commercial Suicide]<br/>
+Homemade Weapons - The Gauntlet Amen [Samurai Music]<br/>
+Epilleptech - Nyctophobia [Terra Null Recordings]<br/>
+Escher - Rugged [Narratives Music]<br/>
+Stray and Halogenix - Poison [Warm Communications]<br/>
+Indigo - Volta [Samurai Music]<br/>
+DBridge and Skeptical - Move Way [R&S Records]<br/>
+MTWN - Microcosm [Diffrent Music]<br/>
+Epilleptech - Natural Selection [Terra Null Recordings]<br/>
+Break - Something New (Xtrah Remix) [Symmetry Recordings]<br/>
+L 33 - Tracer [Citrus Recordings]<br/>
+Larrge - Glitches [Icarus Audio]<br/>
+Cirrus - Tension and Confusion [Terra Null Recordings]<br/>
+Create Her - Her Ritual Is Travel [Terra Null Recordings]<br/>
+Xhin - Hunters [Token Records]<br/>
+Create Her - Convenient Downfall [End Fence]<br/>
+Dadub - Path [Stroboscopic Artefacts]<br/>
+Woulg - Trough [End Fence]<br/>
+Create Her - 108 (Es.tereo Remix) [Terra Null Recordings]<br/>
+Cirrus - Shiver Shrapnel (Woulg Remix) [Terra Null Recordings]<br/>

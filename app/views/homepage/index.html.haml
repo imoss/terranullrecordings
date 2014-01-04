@@ -72,9 +72,26 @@
             We prefer one email with many tracks over many emails with only a few tracks
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
-  .copy
-  %h2.center-text
-    COMING SOON
+  %ul#podcasts
+    {{#each model}}
+    %li
+      .podcast
+        .podcast-thumbnail.float-left
+          <img {{bindAttr src="thumbnail_src"}} height='200px'/>
+        .podcast-copy.float-left
+          .bar-long
+          .podcast-title.podcast-copy
+            {{title}}
+          .podcast-artist.podcast-copy
+            Hosted by {{artist}}
+          .podcast-embed.podcast-copy
+            {{markdown embed_code}}
+          .podcast-tracklist.podcast-copy
+            %a{href:'javascript:void(0)', class:'show-tracklist'}+ Show Tracklist
+            .podcast-description.display-none
+              {{markdown tracklist}}
+        .clear
+    {{/each}}
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'news'}}
   {{#each model}}

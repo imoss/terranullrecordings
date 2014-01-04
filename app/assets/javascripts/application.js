@@ -48,7 +48,9 @@ Terranullrecordings.Podcast = DS.Model.extend({
   listen_link: DS.attr("string"),
   embed_code: DS.attr("string"),
   date_text: DS.attr("string"),
-  large_cover_src: DS.attr("string")
+  large_cover_src: DS.attr("string"),
+  thumbnail_src: DS.attr("string"),
+  tracklist: DS.attr("string")
 });
 
 Terranullrecordings.Release = DS.Model.extend({
@@ -77,6 +79,14 @@ Terranullrecordings.PodcastsView = Ember.View.extend({
   isVisible: false,
   didInsertElement: function() {
     this.$().hide().fadeIn("fast");
+
+    $('.show-tracklist').click(function(){
+      var $this = $(this);
+      var text = $this.text()
+      $this.next('.podcast-description').slideToggle(function(){
+        (text == '+ Show Tracklist' ? $this.text('- Hide Tracklist') : $this.text('+ Show Tracklist'));
+      });
+    });
   }
 });
 
