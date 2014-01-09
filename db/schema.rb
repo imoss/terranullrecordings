@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131222194454) do
+ActiveRecord::Schema.define(version: 20140109171909) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,11 +30,14 @@ ActiveRecord::Schema.define(version: 20131222194454) do
     t.string   "artist"
     t.text     "description"
     t.string   "listen_link"
-    t.string   "embed_code"
+    t.text     "embed_code"
     t.string   "slug"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "date_text"
+    t.string   "thumbnail_src"
+    t.text     "tracklist"
+    t.string   "large_cover_src"
   end
 
   create_table "releases", force: true do |t|
@@ -46,6 +49,7 @@ ActiveRecord::Schema.define(version: 20131222194454) do
     t.string "cover_thumbnail_src"
     t.text   "description"
     t.string "release_date"
+    t.string "large_cover_src"
   end
 
 end

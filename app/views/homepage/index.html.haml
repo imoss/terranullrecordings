@@ -112,7 +112,7 @@
       {{markdown model.content}}
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'release'}}
-  <img {{bindAttr src="model.cover_src"}} height='400px' class="cover-art"/>
+  {{view Terranullrecordings.ReleaseLightbox data-lightbox=model.title href=model.large_cover_src }}
   .copy.left.release-copy
     .bar
     .release-artist
@@ -126,3 +126,7 @@
     .bar
     .release-description
       {{markdown model.description}}
+
+%script{type: 'text/x-handlebars', data: {'template-name' => 'release_thumbnail'}}
+  <img {{bindAttr src="model.cover_src"}} height='400px' class="cover-art"/>
+

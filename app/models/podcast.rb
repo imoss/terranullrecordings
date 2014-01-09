@@ -11,7 +11,8 @@ class Podcast < ActiveRecord::Base
       description: description,
       listen_link: listen_link,
       embed_code: embed_code,
-      date_text: date_text
+      date_text: date_text,
+      large_cover_src: large_cover_src
     }
   end
 end

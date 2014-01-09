@@ -18,6 +18,7 @@
 //= require ember-data_v1.0.0-beta.4
 //= require cufon-yui
 //= require Vitesse_Sans_Medium_350.font
+//= require lightbox-2.6.min
 //= require_self
 
 // for more details see: http://emberjs.com/guides/application/
@@ -50,7 +51,8 @@ Terranullrecordings.Podcast = DS.Model.extend({
   description: DS.attr("string"),
   listen_link: DS.attr("string"),
   embed_code: DS.attr("string"),
-  date_text: DS.attr("string")
+  date_text: DS.attr("string"),
+  large_cover_src: DS.attr("string")
 });
 
 Terranullrecordings.Release = DS.Model.extend({
@@ -60,7 +62,8 @@ Terranullrecordings.Release = DS.Model.extend({
   artist: DS.attr("string"),
   cover_src: DS.attr("string"),
   cover_thumbnail_src: DS.attr("string"),
-  release_date: DS.attr("string")
+  release_date: DS.attr("string"),
+  large_cover_src: DS.attr("string")
 });
 
 //**************** VIEWS ****************
@@ -70,7 +73,7 @@ Terranullrecordings.ReleasesView = Ember.View.extend({
   isVisible: false,
   didInsertElement: function() {
     this.$().hide().fadeIn("fast");
-  }
+  },
 });
 
 Terranullrecordings.PodcastsView = Ember.View.extend({
@@ -110,6 +113,12 @@ Terranullrecordings.ReleaseView = Ember.View.extend({
   //   $('#release-thumbs-wrapper').animate({top:'120px'})
   // }
 });
+
+Terranullrecordings.ReleaseLightbox = Ember.View.extend({
+  templateName: 'release_thumbnail',
+  tagName: 'a',
+  attributeBindings: ['data-lightbox', 'href']
+})
 
 //**************** HELPERS ****************
 

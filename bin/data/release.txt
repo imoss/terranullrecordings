@@ -3,6 +3,7 @@ artist: Cirrus|
 catalog_number: TERNUL001|
 cover_src: /assets/TERRA_NULL_001_art-400x400.png|
 cover_thumbnail_src: /assets/TERRA_NULL_001_art-220x220.png|
+large_cover_src: /assets/TERNUL_art_001_large.jpg|
 release_date: February 4th, 2014|
 description:
 A. Cirrus - Shiver Shrapnel<br/>

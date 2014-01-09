@@ -12,7 +12,8 @@ class Release < ActiveRecord::Base
       catalog_number: catalog_number,
       release_date: release_date,
       cover_src: cover_src,
-      cover_thumbnail_src: cover_thumbnail_src
+      cover_thumbnail_src: cover_thumbnail_src,
+      large_cover_src: large_cover_src
     }
   end
 end
