@@ -127,7 +127,9 @@ Ember.Handlebars.helper('markdown', function(value) {
 
 Terranullrecordings.HomeRoute = Ember.Route.extend({
   redirect: function(){
-    this.transitionTo('news');
+    if (window.location.href.split('/').length < 5) {
+      this.transitionTo('news');
+    }
   }
 });
 
