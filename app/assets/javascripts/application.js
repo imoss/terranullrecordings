@@ -125,8 +125,11 @@ Ember.Handlebars.helper('markdown', function(value) {
 
 //**************** ROUTES ****************
 
-Terranullrecordings.HomeRoute = Ember.Route.extend({});
-
+Terranullrecordings.HomeRoute = Ember.Route.extend({
+  redirect: function(){
+    this.transitionTo('news');
+  }
+});
 
 Terranullrecordings.NewsRoute = Ember.Route.extend({
   model: function() {
