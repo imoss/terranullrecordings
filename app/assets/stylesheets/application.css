@@ -426,4 +426,6 @@ a:active {
   font-size: 16px;
   line-height: 30px;
   padding-top: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: #444;
 }
