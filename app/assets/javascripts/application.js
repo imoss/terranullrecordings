@@ -26,10 +26,6 @@ Terranullrecordings = Ember.Application.create({});
 
 //= require_tree .
 
-$(document).ready(function() {
-  return Cufon.replace(".cool-font");
-});
-
 //**************** STORE ****************
 
 var inflector = Ember.Inflector.inflector;
