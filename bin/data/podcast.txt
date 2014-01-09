@@ -3,6 +3,7 @@ artist: Cirrus|
 embed_code:
 <object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
 thumbnail_src: /assets/nullcast001-logo-small.jpg|
+large_cover_src: /assets/nullcast001-logo-small.jpg|
 tracklist:
 Cirrus - Shiver Shrapnel [Terra Null Recordings]<br/>
 Cirrus - Shiver Shrapnel (L 33 Remix) [Terra Null Recordings]<br/>

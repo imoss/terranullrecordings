@@ -12,7 +12,7 @@ class Podcast < ActiveRecord::Base
       listen_link: listen_link,
       embed_code: embed_code,
       date_text: date_text,
-      large_cover_src: large_cover_src
+      large_cover_src: large_cover_src,
       thumbnail_src: thumbnail_src,
       tracklist: tracklist
     }

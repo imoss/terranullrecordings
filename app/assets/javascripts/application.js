@@ -48,9 +48,9 @@ Terranullrecordings.Podcast = DS.Model.extend({
   listen_link: DS.attr("string"),
   embed_code: DS.attr("string"),
   date_text: DS.attr("string"),
-  large_cover_src: DS.attr("string"),
   thumbnail_src: DS.attr("string"),
-  tracklist: DS.attr("string")
+  tracklist: DS.attr("string"),
+  large_cover_src: DS.attr("string")
 });
 
 Terranullrecordings.Release = DS.Model.extend({
@@ -124,7 +124,13 @@ Terranullrecordings.ReleaseLightbox = Ember.View.extend({
   templateName: 'release_thumbnail',
   tagName: 'a',
   attributeBindings: ['data-lightbox', 'href']
-})
+});
+
+Terranullrecordings.PodcastLightbox = Ember.View.extend({
+  templateName: 'podcast_thumbnail',
+  tagName: 'a',
+  attributeBindings: ['data-lightbox', 'href']
+});
 
 //**************** HELPERS ****************
 
