@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140104042903) do
+ActiveRecord::Schema.define(version: 20140109171909) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20140104042903) do
     t.string   "date_text"
     t.string   "thumbnail_src"
     t.text     "tracklist"
+    t.string   "large_cover_src"
   end
 
   create_table "releases", force: true do |t|
