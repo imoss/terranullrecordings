@@ -18,8 +18,9 @@
 
 body {
   background-color: #000;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */ 
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
 }
 
 ul {
@@ -36,9 +37,9 @@ h2 {
   color: #EC008B;
   margin-top: 10px;
   letter-spacing: 18px;
-  font-style: normal;
-  font-weight: lighter;
   text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
 }
 
 h1, h3 {
@@ -328,6 +329,11 @@ a:active {
 .about-text {
   line-height: 35px;
   font-size: 13px;
+  padding-top: 10px;
+}
+
+.about-text p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 /* NEWS ITEM PAGE */
@@ -337,6 +343,11 @@ a:active {
   width: 800px;
   margin: 0 auto;
   padding-bottom: 20px;
+}
+
+.news-item p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 100;
 }
 
 .news-date-text {
