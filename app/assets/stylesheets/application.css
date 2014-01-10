@@ -412,7 +412,12 @@ a:active {
 }
 
 .podcast-embed {
-  padding-top: 8px;
+  padding-top: 80px;
+}
+
+.podcast-embed p {
+  padding: 0;
+  margin: 0;
 }
 
 .show-tracklist {
@@ -426,7 +431,6 @@ a:active {
   text-transform: none;
   font-size: 16px;
   line-height: 30px;
-  padding-top: 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   color: #444;
 }
