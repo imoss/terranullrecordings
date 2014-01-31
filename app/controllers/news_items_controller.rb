@@ -2,8 +2,6 @@ class NewsItemsController < ApplicationController
   expose(:news_items)
   expose(:news_item) { NewsItem.find_by(slug: params[:id]) }
 
-  before_filter :welcome
-
   def index
     respond_to do |format|
       format.json { render json: { news: news_items.map(&:to_hash) } }

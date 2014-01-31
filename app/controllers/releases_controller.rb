@@ -2,8 +2,6 @@ class ReleasesController < ApplicationController
   expose(:releases)
   expose(:release) { Release.find_by(slug: params[:id]) }
 
-  before_filter :welcome
-
   def index
     respond_to do |format|
       format.json { render json: { releases: releases.map(&:to_hash) } }
