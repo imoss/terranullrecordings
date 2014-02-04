@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140109171909) do
+ActiveRecord::Schema.define(version: 20140203233932) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,9 @@ ActiveRecord::Schema.define(version: 20140109171909) do
     t.text   "description"
     t.string "release_date"
     t.string "large_cover_src"
+    t.string "juno_link"
+    t.string "itunes_link"
+    t.string "beatport_link"
   end
 
 end

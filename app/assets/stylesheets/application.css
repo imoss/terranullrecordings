@@ -307,6 +307,11 @@ a:active {
   text-transform: uppercase;
 }
 
+.release-buy-links {
+  height: 28px;
+  width: 496px;
+}
+
 .bar {
   width: 496px;
   height: 10px;
@@ -335,7 +340,7 @@ a:active {
 .release-catalog-number {
   color: #999;
   letter-spacing: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 18px;
 }
 
 /* ABOUT PAGE */

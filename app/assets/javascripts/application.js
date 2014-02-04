@@ -61,7 +61,11 @@ Terranullrecordings.Release = DS.Model.extend({
   cover_src: DS.attr("string"),
   cover_thumbnail_src: DS.attr("string"),
   release_date: DS.attr("string"),
-  large_cover_src: DS.attr("string")
+  large_cover_src: DS.attr("string"),
+  juno_link: DS.attr("string"),
+  itunes_link: DS.attr("string"),
+  beatport_link: DS.attr("string"),
+  released: DS.attr('boolean', {defaultValue: false})
 });
 
 //**************** VIEWS ****************

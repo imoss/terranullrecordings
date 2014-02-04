@@ -4,7 +4,8 @@ catalog_number: TERNUL001|
 cover_src: /assets/TERRA_NULL_001_art-400x400.png|
 cover_thumbnail_src: /assets/TERRA_NULL_001_art-220x220.png|
 large_cover_src: /assets/TERNUL_art_001_large.jpg|
-release_date: February 4th, 2014|
+release_date: February 3rd, 2014|
+juno_link: http://www.junodownload.com/products/cirrus-shiver-shrapnel-ep/2399332-02/|
 description:
 A. Cirrus - Shiver Shrapnel<br/>
 <object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650076%3Fsecret_token%3Ds-xl1Kv&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650076%3Fsecret_token%3Ds-xl1Kv&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>

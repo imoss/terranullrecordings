@@ -148,6 +148,19 @@
       {{model.catalog_number}}
       %br
       Released {{model.release_date}}
+    .release-buy-links
+      {{#if model.released}}
+      Get it now:
+      {{/if}}
+      {{#if model.juno_link}}
+      &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
+      {{/if}}
+      {{#if model.beatport_link}}
+      &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
+      {{/if}}
+      {{#if model.itunes_link}}
+      &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
+      {{/if}}
     .bar
     .release-description
       {{markdown model.description}}
