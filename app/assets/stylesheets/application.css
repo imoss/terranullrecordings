@@ -36,7 +36,7 @@ h2 {
   font-size: 18px;
   color: #EC008B;
   margin-top: 10px;
-  letter-spacing: 18px;
+  letter-spacing: 12px;
   text-transform: uppercase;
   font-family: 'Exo 2', sans-serif;
   font-weight: 100;
@@ -185,33 +185,18 @@ a:active {
 .primary-nav li a:hover {
   text-indent: 0;
   background-color: #fff;
-  background-image: none;
-}
-
-.primary-nav-left li a {
-  /* background-image: url('/assets/menu_icon_left.png'); */
-  /* background-position: 0 -5px; */
-  /* background-repeat: no-repeat; */
+  text-indent: -999999px;
+  background-image: url('/assets/overlay.png');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .primary-nav-right li a {
   float: right;
-  /* background-image: url('/assets/menu_icon_right.png'); */
-  /* background-position: 0 -5px; */
-  /* background-repeat: no-repeat; */
 }
 
 .nav .active {
-  /* text-indent: 0; */
-  /* background-color: #fff; */
-  /* background-image: none; */
   font-weight: bold;
-}
-
-.nav .active:hover {
-  /* text-indent: 0; */
-  /* background-color: #fff; */
-  /* background-image: none; */
 }
 
 /* TERTIARY CONTAINER */
