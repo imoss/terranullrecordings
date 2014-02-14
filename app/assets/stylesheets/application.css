@@ -147,6 +147,7 @@ a:active {
   width: 100px;
   display: block;
   position: absolute;
+  z-index: 999;
   left: 350px;
 }
 
