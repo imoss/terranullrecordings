@@ -189,6 +189,7 @@ a:active {
 
 .primary-nav li a:hover {
   background-color: #fff;
+  color: #eee;
 }
 
 .primary-nav-right li a {
