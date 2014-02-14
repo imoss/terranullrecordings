@@ -4,15 +4,16 @@
       #nav-wrapper-left
         %ul.nav.primary-nav.primary-nav-left
           %li
-            {{#linkTo 'news'}}News{{/linkTo}}
+            {{#linkTo 'releases'}}Releases{{/linkTo}}
           %li
-            {{#linkTo 'about'}}About{{/linkTo}}
+            {{#linkTo 'news'}}News{{/linkTo}}
         .clear
-      #small-logo
+      %a#small-logo{ href: '/'}
       #nav-wrapper-right
         %ul.nav.primary-nav.primary-nav-right
           %li
-            {{#linkTo 'releases'}}Releases{{/linkTo}}
+            %a{ href: 'http://www.terranullrecordings.bigcartel.com/' } 
+              Store
           %li
             {{#linkTo 'podcasts'}}Podcasts{{/linkTo}}
         .clear
@@ -27,49 +28,54 @@
       .cool-font
         &copy; 2013 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
 
-%script{type: 'text/x-handlebars', data: {'template-name' => 'about'}}
+%script{type: 'text/x-handlebars', data: {'template-name' => 'index'}}
   .content.centered
-    #main-title
-    .copy.about-text
-      %h2 About Us
-      %p
-        Terra Null, taken from the latin expression Terra Nullius derived from an ancient Roman
-        law meaning "Land belonging to no one". With this idea, we at Terra Null Recordings
-        try to cultivate an aesthetic that evokes a sense of organic evolution in both art
-        and music. A world that belongs to nature rather than man naturally cultivates the
-        unfamiliar and strange and is undeterred by the constructs of present human society
-        and culture. We try to represent this as best we can through an eclectic collection
-        of electronic music and digital artwork that we firmly believe pushes boundaries
-        in the best way possible.
-        %br
-        %br
-      %h2 Find Us
-      %p
-        %a{ href: 'https://www.facebook.com/terranullrecordings', target: '_blank' } Facebook
-        %br
-        %a{ href: 'https://twitter.com/terranullrecs', target: '_blank' } Twitter
-        %br
-        %a{ href: 'https://soundcloud.com/terranullrecordings', target: '_blank' } Soundcloud
-        %br
-        %a{ href: 'http://www.youtube.com/channel/UC9Fgz_TEywYWZ43BbI9GnkA', target: '_blank' } YouTube
-        %br
-        %br
-      %h2 Send Demos To:
+    %a{ id: 'about-banner', href: '/#/releases'}
+    .copy
+      #about-copy
+        %h2 About Us
+        .about-text
+          Terra Null, taken from the latin expression Terra Nullius derived from an ancient Roman
+          law meaning "Land belonging to no one". With this idea, we at Terra Null Recordings
+          try to cultivate an aesthetic that evokes a sense of organic evolution in both art
+          and music. A world that belongs to nature rather than man naturally cultivates the
+          unfamiliar and strange and is undeterred by the constructs of present human society
+          and culture. We try to represent this as best we can through an eclectic collection
+          of electronic music and digital artwork that we firmly believe pushes boundaries
+          in the best way possible.
+          %br
+          %br
+        .about-image
+        .clear
+      %h2 Demos:
       %p
         TerraNullRecordings [at] gmail [dot] com
         %br
+        #demo-reqs
         Requirements:
-        %ul#demo-reqs
+        %ul
           %li
-            Emails must contain download links to full length tracks (no clips)
+            &ndash; Emails must contain download links to full length tracks (no clips)
           %li
-            Mediafire, Sendspace, and wetransfer are preferred
+            &ndash; Mediafire, Sendspace, and wetransfer are preferred
           %li
-            Tracks must be 320 kbs mp3s (no wavs or aiffs)
+            &ndash; Tracks must be 320 kbs mp3s (no wavs or aiffs)
           %li
-            Email must contain track name(s), artist name(s), and contact information
+            &ndash; Email must contain track name(s), artist name(s), and contact information
           %li
-            We prefer one email with many tracks over many emails with only a few tracks
+            &ndash; We prefer one email with many tracks over many emails with only a few tracks
+      %table.social-table
+        %td
+          %td
+            %h2 Find Us:
+          %td
+            %a{ href: 'https://www.facebook.com/terranullrecordings', target: '_blank' } Facebook
+          %td
+            %a{ href: 'https://twitter.com/terranullrecs', target: '_blank' } Twitter
+          %td
+            %a{ href: 'https://soundcloud.com/terranullrecordings', target: '_blank' } Soundcloud
+          %td
+            %a{ href: 'http://www.youtube.com/channel/UC9Fgz_TEywYWZ43BbI9GnkA', target: '_blank' } YouTube
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
   %ul#podcasts
@@ -96,12 +102,17 @@
 %script{type: 'text/x-handlebars', data: {'template-name' => 'news'}}
   {{#each model}}
   .copy.news-item
-    %h2
-      {{title}}
-    .news-date-text
-      {{date_text}}
-    %div
-      {{markdown content}}
+    .news-item-image
+      <img {{bindAttr src="featured_image"}} height='200px' class="cover-art"/>
+    .news-item-copy
+      .bar-long
+      %h2
+        {{title}}
+      .news-date-text
+        {{date_text}}
+      .news-item-details
+        {{markdown content}}
+    .clear
   {{/each}}
 
   #tertiary-content
@@ -137,33 +148,34 @@
       {{markdown model.content}}
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'release'}}
-  {{view Terranullrecordings.ReleaseLightbox data-lightbox=model.title href=model.large_cover_src }}
-  .copy.left.release-copy
-    .bar
-    .release-artist
-      {{model.artist}}
-    .release-title
-      {{model.title}}
-    .release-catalog-number
-      {{model.catalog_number}}
-      %br
-      Released {{model.release_date}}
-    .release-buy-links
-      {{#if model.released}}
-      Get it now:
-      {{/if}}
-      {{#if model.juno_link}}
-      &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
-      {{/if}}
-      {{#if model.beatport_link}}
-      &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
-      {{/if}}
-      {{#if model.itunes_link}}
-      &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
-      {{/if}}
-    .bar
-    .release-description
-      {{markdown model.description}}
+  .release
+    {{view Terranullrecordings.ReleaseLightbox data-lightbox=model.title href=model.large_cover_src }}
+    .copy.left.release-copy
+      .bar
+      .release-artist
+        {{model.artist}}
+      .release-title
+        {{model.title}}
+      .release-catalog-number
+        {{model.catalog_number}}
+        %br
+        Released {{model.release_date}}
+      .release-buy-links
+        {{#if model.released}}
+        Get it now:
+        {{/if}}
+        {{#if model.juno_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
+        {{/if}}
+        {{#if model.beatport_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
+        {{/if}}
+        {{#if model.itunes_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
+        {{/if}}
+      .bar
+      .release-description
+        {{markdown model.description}}
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcast_thumbnail'}}
   <img {{bindAttr src="thumbnail_src"}} height='200px'/>

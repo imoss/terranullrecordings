@@ -8,7 +8,8 @@ class NewsItem < ActiveRecord::Base
       id: slug,
       title: title,
       date_text: date_text,
-      content: content
+      content: content,
+      featured_image: featured_image
     }
   end
 end

@@ -15,3 +15,18 @@ C. Cirrus - Shiver Shrapnel (Woulg Remix)<br/>
 <object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650074%3Fsecret_token%3Ds-cCrGL&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650074%3Fsecret_token%3Ds-cCrGL&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
 D. Cirrus - Tension and Confusion<br/>
 <object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650075%3Fsecret_token%3Ds-v4S3s&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/125650075%3Fsecret_token%3Ds-v4S3s&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object>
+****
+title: Her Ritual Is Travel EP|
+artist: Create Her|
+catalog_number: TERNUL002|
+cover_src: /assets/TERNUL_art_002_medium.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_002_small.jpg|
+large_cover_src: /assets/TERNUL_art_002_large.jpg|
+release_date: March 10th, 2014|
+description:
+A. Create Her - 108<br/>
+<object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722898%3Fsecret_token%3Ds-WmNkH&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722898%3Fsecret_token%3Ds-WmNkH&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
+B. Create Her - Her Ritual Is Travel<br/>
+<object height="18" width="450px" param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722896%3Fsecret_token%3Ds-zEUl2&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722896%3Fsecret_token%3Ds-zEUl2&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
+C. Create Her - 108 (Es.tereo Remix)<br/>
+<object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722897%3Fsecret_token%3Ds-gGsUL&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722897%3Fsecret_token%3Ds-gGsUL&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>

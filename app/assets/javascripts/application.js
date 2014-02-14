@@ -38,7 +38,8 @@ Terranullrecordings.ApplicationAdapter = DS.MyRESTAdapter;
 Terranullrecordings.NewsItem = DS.Model.extend({
   title: DS.attr("string"),
   content: DS.attr("string"),
-  date_text: DS.attr("string")
+  date_text: DS.attr("string"),
+  featured_image: DS.attr("string")
 });
 
 Terranullrecordings.Podcast = DS.Model.extend({
@@ -102,8 +103,8 @@ Terranullrecordings.NewsView = Ember.View.extend({
   }
 });
 
-Terranullrecordings.AboutView = Ember.View.extend({
-  templateName: 'about',
+Terranullrecordings.IndexView = Ember.View.extend({
+  templateName: 'index',
   isVisible: false,
   didInsertElement: function() {
     this.$().hide().fadeIn("fast");
@@ -115,13 +116,13 @@ Terranullrecordings.ReleaseView = Ember.View.extend({
   isVisible: false,
   didInsertElement: function() {
     var that = this
-    // $('#release-thumbs-wrapper').animate({top:'555px'}, function(){
+    $('#release-thumbs-wrapper').animate({top:'555px'}, function(){
       that.$().hide().fadeIn("slow");
-    // })
-  }//,
-  // willClearRender: function() {
-  //   $('#release-thumbs-wrapper').animate({top:'120px'})
-  // }
+    })
+  },
+  willClearRender: function() {
+    $('#release-thumbs-wrapper').animate({top:'120px'})
+  }
 });
 
 Terranullrecordings.ReleaseLightbox = Ember.View.extend({
@@ -145,14 +146,6 @@ Ember.Handlebars.helper('markdown', function(value) {
 
 //**************** ROUTES ****************
 
-Terranullrecordings.HomeRoute = Ember.Route.extend({
-  redirect: function(){
-    if (window.location.href.split('/').length < 5) {
-      this.transitionTo('news');
-    }
-  }
-});
-
 Terranullrecordings.NewsRoute = Ember.Route.extend({
   model: function() {
     return this.store.find('news-item');
@@ -168,12 +161,10 @@ Terranullrecordings.PodcastsRoute = Ember.Route.extend({
 Terranullrecordings.ReleasesRoute = Ember.Route.extend({
   model: function() {
     return this.store.find('release');
-  },
-  redirect: function() {
-    var release = this.modelFor('releases').get('firstObject');
-    this.transitionTo('release', release);
   }
 });
+
+Terranullrecordings.IndexRoute = Ember.Route.extend({});
 
 //**************** ROUTER ****************
 
@@ -181,12 +172,8 @@ Terranullrecordings.Router.map(function() {
   return this.resource('home', {
     path: '/'
   }, function() {
-    this.resource('about', {
-      path: '/about'
-    });
-    this.resource('podcasts', {
-      path: '/podcasts'
-    });
+    this.resource('index', { path: '/' });
+    this.resource('podcasts', { path: '/podcasts' });
     this.resource('news', {
       path: '/news'
     }, function() {
