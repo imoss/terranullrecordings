@@ -334,7 +334,7 @@ a:active {
 /* ABOUT PAGE */
 
 .about-text {
-  line-height: 35px;
+  line-height: 25px;
   font-size: 13px;
   padding-top: 10px;
 }
@@ -370,7 +370,7 @@ a:active {
   width: 400px;
   height: 331px;
   float: right;
-  margin-top: 60px;
+  margin-top: 15px;
 }
 
 .about-text {
