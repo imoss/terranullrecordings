@@ -1,3 +1,42 @@
+title: NullCast 002|
+artist: Create Her|
+embed_code:
+<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+thumbnail_src: /assets/nullcast002_art-small.jpg|
+large_cover_src: /assets/nullcast002_art-large.jpg|
+tracklist:
+kuxxan SUUM - "Hunting At Low Tide" [Blankstairs]<br/>
+Dadub & Retina - "Kykeon" [Stroboscopic Artefacts]<br/>
+Frank Martiniq - "Blast Corps" [Stroboscopic Artefacts]<br/>
+Echologist - "The Frequency Of Love" [Prologue]<br/>
+Lucy - "Laws and Habits" [Stroboscopic Artefacts]<br/>
+Clouds - "Tropical Fuck (Hound Scales' She Goat Remix)" [Fifth Wall]<br/>
+Surgeon - "Waiting For Me" [Counterbalance]<br/>
+PVS - "Rome Is Changed (VSK Remix)" [Sonntag Morgen]<br/>
+Richard Devine - "Corina Chirac" [Schematic]<br/>
+Woulg - "And Ashen Light" [Enig'matik Records]<br/>
+Emptyset - "Disperse" [Raster-noton]<br/>
+Kangding Ray - "Amber Decay" [Raster-noton]<br/>
+Black Rain - "Lo Tek Bridge 2" [Fifth Colvmn]<br/>
+Clouds - "Chained To A Dead Camel" [Turbo]<br/>
+Drumcell - "Disturbance" [CLR]<br/>
+Plaster - "Quasar" [Stroboscopic Artifacts]<br/>
+Sawf - "Menete (Yuji Kondo Remix)" [Perc Trax]<br/>
+Ontal - "Centrifugal Force" [Darkfloor Sound]<br/>
+Corax - "Anamnesis" [Rodz-Konez]<br/>
+Akkord - "3dOS" - [Houndstooth]<br/>
+King Midas Touch - "Surround Me" [Soul Jazz Records]<br/>
+Amon Tobin - "Shut Down" [Ninja Tune XX]<br/>
+Dyl - "Anomaly" [unreleased]<br/>
+FIS - "K Slap" [Samurai]<br/>
+Hybris - "Not Human"<br/>
+Overlook - "False" [Narratives Music]<br/>
+dBridge & Skeptical - "Move Way" [R&S Records]<br/>
+Raiden - "657" [Tech:nology]<br/>
+DEFCE - "Northern Solace" [unreleased]<br/>
+Section 63 - "Section 63" [unreleased]<br/>
+Machine Code - "Tentacles" [Subsistenz]
+****
 title: NullCast 001|
 artist: Cirrus|
 embed_code:

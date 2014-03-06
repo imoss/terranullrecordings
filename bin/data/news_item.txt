@@ -1,3 +1,13 @@
+title: NullCast 002 Launches|
+date_text: March 6th, 2014|
+featured_image: /assets/nullcast002_art-small.jpg|
+content:
+The second episode of the Terra Null Recordings podcast now available.
+
+Hosted by Create Her
+
+Enjoy. Listen <a href="/#/podcasts">here</a>.
+****
 title: TERNUL002 Announced|
 date_text: January 13th, 2014|
 featured_image: /assets/TERNUL_art_002_small.jpg|
