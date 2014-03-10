@@ -24,6 +24,7 @@ catalog_number: TERNUL002|
 cover_src: /assets/TERNUL_art_002_medium.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_002_small.jpg|
 large_cover_src: /assets/TERNUL_art_002_large.jpg|
+juno_link: http://www.junodownload.com/products/create-her-her-ritual-is-travel-ep/2420928-02/|
 release_date: March 10th, 2014|
 description:
 A. Create Her - 108<br/>
