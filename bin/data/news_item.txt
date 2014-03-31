@@ -1,3 +1,9 @@
+title: TERNUL003 Announced|
+date_text: March 31st, 2014|
+featured_image: /assets/TERNUL_art_002_small.jpg|
+content:
+Listen <a href="/#/releases/nyctophobia-ep">here</a>
+****
 title: TERNUL002 Released|
 date_text: March 10th, 2014|
 featured_image: /assets/juno.jpg|
