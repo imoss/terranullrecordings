@@ -43,6 +43,8 @@ large_cover_src: /assets/TERNUL_art_003-large.jpg|
 cover_src: /assets/TERNUL_art_003-medium.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_003-small.jpg|
 juno_link: http://www.junodownload.com/products/epilleptech-nyctophobia-ep/2434776-02/|
+itunes_link: https://itunes.apple.com/us/album/nyctophobia-ep/id834863932|
+beatport_link: http://www.beatport.com/release/nyctophobia-ep/1262340|
 release_date: April 14th, 2014|
 description:
 A. Epilleptech - Nyctophobia<br/>
