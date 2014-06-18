@@ -103,14 +103,6 @@ Terranullrecordings.NewsView = Ember.View.extend({
   }
 });
 
-Terranullrecordings.IndexView = Ember.View.extend({
-  templateName: 'index',
-  isVisible: false,
-  didInsertElement: function() {
-    this.$().hide().fadeIn("fast");
-  }
-});
-
 Terranullrecordings.ReleaseView = Ember.View.extend({
   templateName: 'release',
   isVisible: false,
@@ -164,7 +156,11 @@ Terranullrecordings.ReleasesRoute = Ember.Route.extend({
   }
 });
 
-Terranullrecordings.IndexRoute = Ember.Route.extend({});
+Terranullrecordings.IndexRoute = Ember.Route.extend({
+  beforeModel: function() {
+    this.transitionTo('releases');
+  }
+});
 
 //**************** ROUTER ****************
 
