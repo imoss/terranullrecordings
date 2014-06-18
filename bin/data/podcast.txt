@@ -1,3 +1,35 @@
+title: NullCast 003|
+artist: Epilleptech|
+embed_code:
+<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=999999&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+thumbnail_src: /assets/nullcast003-art-small.jpg|
+large_cover_src: /assets/nullcast003-art-large.jpg|
+tracklist:
+Epilleptech - Nyctophobia [Terra Null]<br/>
+Clarity - Constant [Exit]<br/>
+Gremlinz & Rumbleton - The Shield [Horizons]<br/>
+Ruffhouse & Clarity - Aphasia [Critical]<br/>
+Dyl - ??? [dub]<br/>
+Thing - Untouched [31 Recordings]<br/>
+Ruffhouse & Clarity - Persecute [Critical]<br/>
+Homemade Weapons & Gremlinz - 11th Hour [Samurai]<br/>
+Indigo - Ayahuasca [Exit]<br/>
+DBR UK & Displaced Paranormals - Big Daddy [DBR UK]<br/>
+Homemade Weapons - Kintaro [Samurai]<br/>
+Epilleptech - Premonition (Dexta & Mauoq Refix) [Terra Null Dub]<br/>
+Jumpat - Dubwar (Untouchables Remix) [Metaphysic Audio]<br/>
+J.Robinson & Shima - Hidden Zoku [Retrospective Recordings]<br/>
+DBR UK - Policies (Morphy Remix) [Broken Audio]<br/>
+Amit - I'll Cut You Down [AMAR]<br/>
+Paragon - Heirship [Samurai]<br/>
+Epilleptech - Natural Selection (Gremlinz Remix) [Terra Null Dub]<br/>
+Dyl - Anoxia (Break-Fast Audio)<br/>
+Gremlinz & Interline - Untitled 2.1 [Metaphysic Audio]<br/>
+Ruffhouse - Division 3 [Ingredients]<br/>
+Amoss - Mentality [Renegade Hardware]<br/>
+Paragon - Watchmaker [Melee]<br/>
+Ivy Lab & Hydro - Make it Clear feat. Frank Carter III & Lucy Annika [Metalheadz]<br/>
+****
 title: NullCast 002|
 artist: Create Her|
 embed_code:
