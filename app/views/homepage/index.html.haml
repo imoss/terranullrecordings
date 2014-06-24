@@ -1,32 +1,44 @@
 %script{type: 'text/x-handlebars', data: {'template-name'=> 'home'}}
-  #header-wrapper
-    #header
-      #nav-wrapper-left
-        %ul.nav.primary-nav.primary-nav-left
-          %li
-            {{#linkTo 'releases'}}Releases{{/linkTo}}
-          %li
-            {{#linkTo 'news'}}News{{/linkTo}}
-        .clear
-      #small-logo
-      #nav-wrapper-right
-        %ul.nav.primary-nav.primary-nav-right
-          %li
-            %a{ href: 'http://www.terranullrecordings.bigcartel.com/', target: '_blank' }
-              Store
-          %li
-            {{#linkTo 'podcasts'}}Podcasts{{/linkTo}}
+  #main-wrapper
+    #header-wrapper
+      #header
+        #nav-wrapper-left
+          %ul.nav.primary-nav.primary-nav-left
+            %li
+              {{#linkTo 'releases'}}Releases{{/linkTo}}
+            %li
+              {{#linkTo 'news'}}News{{/linkTo}}
+          .clear
+        #small-logo
+        #nav-wrapper-right
+          %ul.nav.primary-nav.primary-nav-right
+            %li
+              %a{ href: 'http://www.terranullrecordings.bigcartel.com/', target: '_blank' }
+                Store
+            %li
+              {{#linkTo 'podcasts'}}Podcasts{{/linkTo}}
+          .clear
         .clear
       .clear
-    .clear
-  #main
-    #secondary-content
-      {{outlet}}
-    .clear
-  #footer-wrapper
-    #footer
-      .cool-font
-        &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
+    #main
+      #secondary-content
+        {{outlet}}
+      .clear
+
+    #social-media
+      %a{ href: 'http://www.facebook.com/terranullrecordings', target: '_blank' }
+        %img{ src: '/assets/social-icons/facebook.png' }
+      %a{ href: 'http://www.twitter.com/terranullrecs', target: '_blank' }
+        %img{ src: '/assets/social-icons/twitter.png' }
+      %a{ href: 'http://www.soundcloud.com/terranullrecordings', target: '_blank' }
+        %img{ src: '/assets/social-icons/soundcloud.png' }
+      %a{ href: 'http://www.youtube.com/channel/UC9Fgz_TEywYWZ43BbI9GnkA', target: '_blank' }
+        %img{ src: '/assets/social-icons/youtube.png' }
+
+    #footer-wrapper
+      #footer
+        .cool-font
+          &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
   %ul#podcasts
@@ -81,11 +93,11 @@
       <li>
       {{#linkTo 'release' this class='cool-font release-thumb'}}
       <img {{bindAttr src="cover_thumbnail_src"}} height='200px' class="cover-art"/>
-      .release-thumb-copy
-        .release-thumb-catalog-number
-          {{catalog_number}}
-        .release-thumb-title
-          {{title}}
+      -# .release-thumb-copy
+      -#   .release-thumb-catalog-number
+      -#     {{catalog_number}}
+      -#   .release-thumb-title
+      -#     {{title}}
       {{/linkTo}}
       .clear
       </li>
@@ -109,24 +121,25 @@
         {{model.title}}
       .release-catalog-number
         {{model.catalog_number}}
-        %br
-        Released {{model.release_date}}
-      .release-buy-links
-        {{#if model.released}}
-        Get it now:
-        {{/if}}
-        {{#if model.juno_link}}
-        &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
-        {{/if}}
-        {{#if model.beatport_link}}
-        &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
-        {{/if}}
-        {{#if model.itunes_link}}
-        &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
-        {{/if}}
-      .bar
-      .release-description
-        {{markdown model.description}}
+      .release-purchase-info
+        .release-date
+          Released {{model.release_date}}
+        .release-buy-links
+          {{#if model.released}}
+          <span class='release-getitnow'>Get it now:</span>
+          {{/if}}
+          {{#if model.juno_link}}
+          &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
+          {{/if}}
+          {{#if model.beatport_link}}
+          &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
+          {{/if}}
+          {{#if model.itunes_link}}
+          &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
+          {{/if}}
+        .release-description
+          .bar
+          {{markdown model.description}}
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcast_thumbnail'}}
   <img {{bindAttr src="thumbnail_src"}} height='200px'/>

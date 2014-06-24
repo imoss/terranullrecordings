@@ -9,7 +9,8 @@ date_text: June 17th, 2014|
 featured_image: /assets/nullcast003-art-small.jpg|
 content:
 The third episode of the Terra Null Recordings podcast now available.
-
-Hosted by Create Her
-
+<br/>
+Hosted by Epilleptech
+<br/>
+<br/>
 Enjoy. Listen <a href="/#/podcasts">here</a>.
