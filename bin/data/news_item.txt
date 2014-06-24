@@ -1,3 +1,9 @@
+title: TERNUL004 Announced|
+date_text: June 24th, 2014|
+featured_image: /assets/TERNUL_art_004_small.jpg|
+content:
+Listen <a href="/#/releases/nyctophobia-the-remixes-ep">here</a>
+****
 title: NullCast 003 Launches|
 date_text: June 17th, 2014|
 featured_image: /assets/nullcast003-art-small.jpg|
@@ -7,78 +13,3 @@ The third episode of the Terra Null Recordings podcast now available.
 Hosted by Create Her
 
 Enjoy. Listen <a href="/#/podcasts">here</a>.
-****
-title: TERNUL003 Released|
-date_text: April 14th, 2014|
-featured_image: /assets/juno.jpg|
-content:
-Get it <a href="http://www.junodownload.com/products/epilleptech-nyctophobia-ep/2434776-02/" target="_blank">here</a>.
-****
-title: NULFREE001 Released|
-date_text: April 7th, 2014|
-featured_image: /assets/TR-free-splatter-small.jpg|
-content:
-Listen and download <a target="_blank" href="http://soundcloud.com/terranullrecordings/nullfree001">here</a>
-****
-title: TERNUL003 Announced|
-date_text: March 31st, 2014|
-featured_image: /assets/TERNUL_art_002_small.jpg|
-content:
-Listen <a href="/#/releases/nyctophobia-ep">here</a>
-****
-title: TERNUL002 Released|
-date_text: March 10th, 2014|
-featured_image: /assets/juno.jpg|
-content:
-Get it <a href="http://www.junodownload.com/products/create-her-her-ritual-is-travel-ep/2420928-02/" target="_blank">here</a>.
-****
-title: NullCast 002 Launches|
-date_text: March 6th, 2014|
-featured_image: /assets/nullcast002_art-small.jpg|
-content:
-The second episode of the Terra Null Recordings podcast now available.
-
-Hosted by Create Her
-
-Enjoy. Listen <a href="/#/podcasts">here</a>.
-****
-title: TERNUL002 Announced|
-date_text: January 13th, 2014|
-featured_image: /assets/TERNUL_art_002_small.jpg|
-content:
-Listen <a href="/#/releases/her-ritual-is-travel-ep">here</a>
-****
-title: TERNUL001 Released|
-date_text: February 3rd, 2014|
-featured_image: /assets/juno.jpg|
-content:
-Get it <a href="http://www.junodownload.com/products/cirrus-shiver-shrapnel-ep/2399332-02/" target="_blank">here</a>.
-****
-title: NullCast 001 Launches|
-date_text: January 20th, 2014|
-featured_image: /assets/nullcast001_art-small.jpg|
-content:
-The first episode of the Terra Null Recordings podcast now available. It is full of Terra Null exclusives as well as some other nasty bits as well.
-
-Hosted by Cirrus
-
-Enjoy. Listen <a href="/#/podcasts">here</a>.
-****
-title: Label Launch Press|
-date_text: January 13th, 2014|
-featured_image: /assets/kmaglogo.jpg|
-content:
-Label founder Cirrus put together an exclusive interview and mix for Knowledge Magazine in preparation for the launch of Terra Null Recordings.
-
-Listen and read it <a href="http://www.kmag.co.uk/editorial/news/introducing-terra-null-recordings.html" target="_blank">here</a>
-
-<br/>
-Cirrus also did an interview for local Boston-based tastemaker BeantownBoogiedown.
-
-Read it <a href="http://www.beantownboogiedown.com/journal/2014/1/13/backyard-an-interview-with-cirrus-the-brains-behind-new-expe.html" target="_blank">here</a>
-****
-title: TERNUL001 Announced|
-date_text: January 13th, 2014|
-featured_image: /assets/TERRA_NULL_001_art-220x220.png|
-content:
-Listen <a href="/#/releases/shiver-shrapnel-ep">here</a>
