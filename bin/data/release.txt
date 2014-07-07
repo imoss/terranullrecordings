@@ -110,6 +110,7 @@ cover_src: /assets/TERNUL_art_004_medium.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_004_small.jpg|
 itunes_link: https://itunes.apple.com/gb/album/nyctophobia-remixes-single/id887809212|
 juno_link: http://www.junodownload.com/products/epilleptech-nyctophobia-the-remixes/2503520-02/|
+beatport_link: http://www.beatport.com/release/nyctophobia-the-remixes/1323596|
 release_date: July 7th, 2014|
 description:
 <div class="release-track">
