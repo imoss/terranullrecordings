@@ -1,0 +1,38 @@
+<div class="release">
+  {{view Terranullrecordings.ReleaseLightbox data-lightbox=model.title href=model.large_cover_src }}
+  <div class="copy left release-copy">
+    <div class="bar"></div>
+    <div class="release-artist">
+      {{model.artist}}
+    </div>
+    <div class="release-title">
+      {{model.title}}
+    </div>
+    <div class="release-catalog-number">
+      {{model.catalog_number}}
+    </div>
+    <div class="release-purchase-info">
+      <div class="release-date">
+        Released {{model.release_date}}
+      </div>
+      <div class="release-buy-links">
+        {{#if model.released}}
+        <span class='release-getitnow'>Get it now:</span>
+        {{/if}}
+        {{#if model.juno_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
+        {{/if}}
+        {{#if model.beatport_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
+        {{/if}}
+        {{#if model.itunes_link}}
+        &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
+        {{/if}}
+      </div>
+      <div class="release-description">
+        <div class="bar"></div>
+        {{markdown model.description}}
+      </div>
+    </div>
+  </div>
+</div>

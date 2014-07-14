@@ -1,0 +1,17 @@
+<div id="tertiary-content">
+  {{outlet}}
+  <div class="clear"></div>
+</div>
+<div id="release-thumbs-wrapper">
+  <ul id="release-thumbs">
+    {{#each model}}
+    <li>
+    {{#linkTo 'release' this class='release-thumb'}}
+    <img {{bindAttr src="cover_thumbnail_src"}} height='200px' class="cover-art"/>
+    {{/linkTo}}
+    <div class="clear"></div>
+    </li>
+    {{/each}}
+  </ul>
+</div>
+

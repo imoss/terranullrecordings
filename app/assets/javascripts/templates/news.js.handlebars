@@ -1,0 +1,24 @@
+{{#each model}}
+<div class="copy news-item">
+  <div class="news-item-image">
+    <img {{bindAttr src="featured_image"}} height='200px' class="cover-art"/>
+  </div>
+  <div class="news-item-copy">
+    <div class="bar-long"></div>
+    <h2>
+      {{title}}
+    </h2>
+    <div class="news-date-text">
+      {{date_text}}
+    </div>
+    <div class="news-item-details">
+      {{markdown content}}
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+{{/each}}
+<div id="tertiary-content">
+  {{outlet}}
+</div>
+<div class="clear"></div>

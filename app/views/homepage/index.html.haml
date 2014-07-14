@@ -1,4 +1,4 @@
-%script{type: 'text/x-handlebars', data: {'template-name'=> 'home'}}
+%script{type: 'text/x-handlebars'}
   #main-wrapper
     #header-wrapper
       #header
@@ -35,109 +35,6 @@
       %a{ href: 'http://www.youtube.com/channel/UC9Fgz_TEywYWZ43BbI9GnkA', target: '_blank' }
         %img{ src: '/assets/social-icons/youtube.png' }
 
-    #footer-wrapper
-      #footer
-        &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
-  %ul#podcasts
-    {{#each model}}
-    %li
-      .podcast
-        .podcast-thumbnail.float-left
-          {{view Terranullrecordings.PodcastLightbox data-lightbox=title href=large_cover_src }}
-        .podcast-copy.float-left
-          .bar-long
-          .podcast-title.podcast-copy
-            {{title}}
-          .podcast-artist.podcast-copy
-            Hosted by {{artist}}
-          .podcast-embed.podcast-copy
-            {{markdown embed_code}}
-          .podcast-tracklist.podcast-copy
-            %a{href:'javascript:void(0)', class:'show-tracklist'}+ Show Tracklist
-            .podcast-description.display-none
-              {{markdown tracklist}}
-        .clear
-    {{/each}}
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'news'}}
-  {{#each model}}
-  .copy.news-item
-    .news-item-image
-      <img {{bindAttr src="featured_image"}} height='200px' class="cover-art"/>
-    .news-item-copy
-      .bar-long
-      %h2
-        {{title}}
-      .news-date-text
-        {{date_text}}
-      .news-item-details
-        {{markdown content}}
-    .clear
-  {{/each}}
-
-  #tertiary-content
-    {{outlet}}
-  .clear
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'releases'}}
-  #tertiary-content
-    {{outlet}}
-    .clear
-
-  #release-thumbs-wrapper
-    %ul#release-thumbs
-      {{#each model}}
-      <li>
-      {{#linkTo 'release' this class='release-thumb'}}
-      <img {{bindAttr src="cover_thumbnail_src"}} height='200px' class="cover-art"/>
-      {{/linkTo}}
-      .clear
-      </li>
-      {{/each}}
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'news-item'}}
-  .copy.news-item
-    %h2
-      {{model.title}}
-    %div
-      {{markdown model.content}}
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'release'}}
-  .release
-    {{view Terranullrecordings.ReleaseLightbox data-lightbox=model.title href=model.large_cover_src }}
-    .copy.left.release-copy
-      .bar
-      .release-artist
-        {{model.artist}}
-      .release-title
-        {{model.title}}
-      .release-catalog-number
-        {{model.catalog_number}}
-      .release-purchase-info
-        .release-date
-          Released {{model.release_date}}
-        .release-buy-links
-          {{#if model.released}}
-          <span class='release-getitnow'>Get it now:</span>
-          {{/if}}
-          {{#if model.juno_link}}
-          &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
-          {{/if}}
-          {{#if model.beatport_link}}
-          &nbsp;&nbsp;<a {{bind-attr href='model.beatport_link'}} target="_blank">Beatport</a>
-          {{/if}}
-          {{#if model.itunes_link}}
-          &nbsp;&nbsp;<a {{bind-attr href='model.itunes_link'}} target="_blank">iTunes</a>
-          {{/if}}
-        .release-description
-          .bar
-          {{markdown model.description}}
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'podcast_thumbnail'}}
-  <img {{bindAttr src="thumbnail_src"}} height='200px'/>
-
-%script{type: 'text/x-handlebars', data: {'template-name' => 'release_thumbnail'}}
-  <img {{bindAttr src="model.cover_src"}} height='400px' class="cover-art"/>
-
+  #footer-wrapper
+    #footer
+      &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED

@@ -1,0 +1,30 @@
+<ul id="podcasts">
+  {{#each model}}
+  <li>
+    <div class="podcast">
+      <div class="podcast-thumbnail float-left">
+        {{view Terranullrecordings.PodcastLightbox data-lightbox=title href=large_cover_src }}
+      </div>
+      <div class="podcast-copy float-left">
+        <div class="bar-long"></div>
+        <div class="podcast-title podcast-copy">
+          {{title}}
+        </div>
+        <div class="podcast-artist podcast-copy">
+          Hosted by {{artist}}
+        </div>
+        <div class="podcast-embed podcast-copy">
+          {{markdown embed_code}}
+        </div>
+        <div class="podcast-tracklist podcast-copy">
+          <a class="show-tracklist" href="javascript:void(0)">+ Show Tracklist</a>
+          <div class="podcast-description display-none">
+            {{markdown tracklist}}
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </li>
+  {{/each}}
+</ul>
