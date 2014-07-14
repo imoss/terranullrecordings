@@ -16,7 +16,15 @@ module FabricationSteps
     end
   end
 
+  step "the following podcasts:" do |table|
+    @podcasts = table.hashes.map do |attributes|
+      Fabricate(:podcast, attributes)
+    end
+  end
+
   def build_attributes_from_vertical_table(table)
-    table.raw.inject({}) { |r, e| r.merge(e.first.to_sym => e.last) }
+    table.raw.inject({}) do |hash, attribute|
+      hash.merge(attribute.first.to_sym => attribute.last)
+    end
   end
 end

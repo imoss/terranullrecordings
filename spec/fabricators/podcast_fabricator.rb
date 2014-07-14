@@ -1,0 +1,2 @@
+Fabricator(:podcast) do
+end

@@ -7,6 +7,10 @@ module NavigationSteps
     visit news_items_path
   end
 
+  step "I am on the podcasts page" do
+    visit podcasts_path
+  end
+
   step "I am on the show page for that release" do
     visit release_path(@release.slug)
   end
