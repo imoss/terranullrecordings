@@ -37,8 +37,7 @@
 
     #footer-wrapper
       #footer
-        .cool-font
-          &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
+        &copy; 2014 TERRA NULL RECORDINGS. ALL RIGHTS RESERVED
 
 %script{type: 'text/x-handlebars', data: {'template-name' => 'podcasts'}}
   %ul#podcasts
@@ -91,13 +90,8 @@
     %ul#release-thumbs
       {{#each model}}
       <li>
-      {{#linkTo 'release' this class='cool-font release-thumb'}}
+      {{#linkTo 'release' this class='release-thumb'}}
       <img {{bindAttr src="cover_thumbnail_src"}} height='200px' class="cover-art"/>
-      -# .release-thumb-copy
-      -#   .release-thumb-catalog-number
-      -#     {{catalog_number}}
-      -#   .release-thumb-title
-      -#     {{title}}
       {{/linkTo}}
       .clear
       </li>
