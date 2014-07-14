@@ -1,0 +1,2 @@
+Fabricator(:release) do
+end

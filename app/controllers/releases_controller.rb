@@ -12,7 +12,7 @@ class ReleasesController < ApplicationController
   def show
     respond_to do |format|
       format.json { render json: { release: release.to_hash } }
-      format.html { redirect_to "/#/release/#{release.id}" }
+      format.html { redirect_to "/#/releases/#{release.slug}" }
     end
   end
 end
