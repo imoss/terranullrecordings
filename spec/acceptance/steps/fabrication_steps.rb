@@ -10,6 +10,12 @@ module FabricationSteps
     end
   end
 
+  step "the following news items:" do |table|
+    @news_items = table.hashes.map do |attributes|
+      Fabricate(:news_item, attributes)
+    end
+  end
+
   def build_attributes_from_vertical_table(table)
     table.raw.inject({}) { |r, e| r.merge(e.first.to_sym => e.last) }
   end
