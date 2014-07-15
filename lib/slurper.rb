@@ -7,6 +7,10 @@ module Slurper
     'podcast'
   ]
 
+  RECORD_SPLITTER = '****'
+  ATTRIBUTE_SPLITTER = '|'
+  KEY_VALUE_SPLITTER = ':'
+
   def self.slurp
     FILES.each { |file| File.import(file) }
   end
@@ -21,11 +25,7 @@ module Slurper
     end
 
     def destroy_old_records
-      associated_class.destroy_all; true
-    end
-
-    def file
-      ::File.open(file_location)
+      associated_class.destroy_all
     end
 
     def file_location
@@ -37,16 +37,36 @@ module Slurper
     end
 
     def import_new_records
-      file.read.split('****').each { |i| import_record(i) }
+      raw_records.map { |r| Record.create!(associated_class, r) }
     end
 
-    def import_record(items)
-      item = associated_class.new
-      items.split('|').each do |attribute|
-        key, *val = attribute.split(':')
-        item.send("#{key.gsub(/\n/, '')}=", val.join(':').strip)
+    def input
+      ::File.open(file_location).read
+    end
+
+    def raw_records
+      input.split RECORD_SPLITTER
+    end
+
+    class Record < Struct.new(:associated_class, :raw)
+      def self.create!(associated_class, raw)
+        new(associated_class, raw).create!
       end
-      item.save!
+
+      def attributes
+        raw_attributes.inject({}) do |hash, attr|
+          key, *val = attr.split(KEY_VALUE_SPLITTER)
+          hash.merge(key.strip => val.join(KEY_VALUE_SPLITTER).strip)
+        end
+      end
+
+      def raw_attributes
+        raw.split(ATTRIBUTE_SPLITTER)
+      end
+
+      def create!
+        associated_class.create!(attributes)
+      end
     end
   end
 end
