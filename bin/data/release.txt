@@ -8,6 +8,7 @@ release_date: February 3rd, 2014|
 juno_link: http://www.junodownload.com/products/cirrus-shiver-shrapnel-ep/2399332-02/|
 itunes_link: https://itunes.apple.com/us/album/shiver-shrapnel-ep/id824087886|
 beatport_link: http://www.beatport.com/release/shiver-shrapnel-ep/1251338|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/shiver-shrapnel-ep|
 description:
 <div class="release-track">
 A. Cirrus - Shiver Shrapnel<br/>
@@ -35,30 +36,7 @@ large_cover_src: /assets/TERNUL_art_002_large.jpg|
 juno_link: http://www.junodownload.com/products/create-her-her-ritual-is-travel-ep/2420928-02/|
 itunes_link: https://itunes.apple.com/us/album/her-ritual-is-travel-single/id833388992|
 beatport_link: http://www.beatport.com/release/her-ritual-is-travel-ep/1260390|
-release_date: March 10th, 2014|
-description:
-<div class="release-track">
-A. Create Her - 108<br/>
-<object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722898%3Fsecret_token%3Ds-WmNkH&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722898%3Fsecret_token%3Ds-WmNkH&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
-</div>
-<div class="release-track">
-B. Create Her - Her Ritual Is Travel<br/>
-<object height="18" width="450px" param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722896%3Fsecret_token%3Ds-zEUl2&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722896%3Fsecret_token%3Ds-zEUl2&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
-</div>
-<div class="release-track">
-C. Create Her - 108 (Es.tereo Remix)<br/>
-<object height="18" width="450px"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722897%3Fsecret_token%3Ds-gGsUL&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/134722897%3Fsecret_token%3Ds-gGsUL&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
-</div>
-****
-title: Her Ritual Is Travel EP|
-artist: Create Her|
-catalog_number: TERNUL002|
-cover_src: /assets/TERNUL_art_002_medium.jpg|
-cover_thumbnail_src: /assets/TERNUL_art_002_small.jpg|
-large_cover_src: /assets/TERNUL_art_002_large.jpg|
-juno_link: http://www.junodownload.com/products/create-her-her-ritual-is-travel-ep/2420928-02/|
-itunes_link: https://itunes.apple.com/us/album/her-ritual-is-travel-single/id833388992|
-beatport_link: http://www.beatport.com/release/her-ritual-is-travel-ep/1260390|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/her-ritual-is-travel-ep|
 release_date: March 10th, 2014|
 description:
 <div class="release-track">
@@ -83,6 +61,7 @@ cover_thumbnail_src: /assets/TERNUL_art_003-small.jpg|
 juno_link: http://www.junodownload.com/products/epilleptech-nyctophobia-ep/2434776-02/|
 itunes_link: https://itunes.apple.com/us/album/nyctophobia-ep/id834863932|
 beatport_link: http://www.beatport.com/release/nyctophobia-ep/1262340|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/nyctophobia-ep|
 release_date: April 14th, 2014|
 description:
 <div class="release-track">
@@ -111,6 +90,7 @@ cover_thumbnail_src: /assets/TERNUL_art_004_small.jpg|
 itunes_link: https://itunes.apple.com/gb/album/nyctophobia-remixes-single/id887809212|
 juno_link: http://www.junodownload.com/products/epilleptech-nyctophobia-the-remixes/2503520-02/|
 beatport_link: http://www.beatport.com/release/nyctophobia-the-remixes/1323596|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/nyctophobia-the-remixes|
 release_date: July 7th, 2014|
 description:
 <div class="release-track">

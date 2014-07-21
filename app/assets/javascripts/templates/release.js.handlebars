@@ -19,6 +19,9 @@
         {{#if model.released}}
         <span class='release-getitnow'>Get it now:</span>
         {{/if}}
+        {{#if model.bandcamp_link}}
+        <a {{bind-attr href='model.bandcamp_link'}} target="_blank">Bandcamp</a>
+        {{/if}}
         {{#if model.juno_link}}
         &nbsp;&nbsp;<a {{bind-attr href='model.juno_link'}} target="_blank">Juno</a>
         {{/if}}

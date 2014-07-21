@@ -10,6 +10,7 @@ Terranullrecordings.Release = DS.Model.extend(
   juno_link: DS.attr("string")
   itunes_link: DS.attr("string")
   beatport_link: DS.attr("string")
+  bandcamp_link: DS.attr("string")
   released: DS.attr("boolean",
     defaultValue: false
   )

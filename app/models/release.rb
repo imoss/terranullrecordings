@@ -3,6 +3,10 @@ class Release < ActiveRecord::Base
 
   has_slug :title
 
+  def released?
+    beatport_link || juno_link || itunes_link || bandcamp_link
+  end
+
   def to_hash
     {
       id: slug,
@@ -17,7 +21,8 @@ class Release < ActiveRecord::Base
       juno_link: juno_link,
       itunes_link: itunes_link,
       beatport_link: beatport_link,
-      released: (beatport_link || juno_link || itunes_link).present?
+      bandcamp_link: bandcamp_link,
+      released: released?
     }
   end
 end
