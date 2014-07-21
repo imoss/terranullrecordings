@@ -1,3 +1,14 @@
+title: Terra Null is now on Bandcamp!|
+date_text: July 21st, 2014|
+featured_image: /assets/bandcamp_news.png|
+content:
+Terra Null Recordings is now on Bandcamp!<br/>
+<br/>
+<a href="http://terranullrecordings.bandcamp.com" target="_blank">terranullrecordings.bandcamp.com</a><br/>
+<br/>
+Bandcamp is a wonderful way to sell our music directly to you with no middle man.<br/>
+Look out for early releases and bandcamp exclusives in the near future.
+****
 title: TERNUL004 Released|
 date_text: July 7th, 2014|
 featured_image: /assets/beatport_logo.png|
