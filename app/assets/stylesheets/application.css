@@ -236,13 +236,11 @@ a:active {
   top: 120px;
   width: 1000px;
   padding: 0;
-  margin: 0 0 0 15px;
 }
 
 #release-thumbs {
-  margin: 0 0 90px 0;
-  padding: 20px 0;
   float: left;
+  margin-bottom: 75px;
 }
 
 .release-thumb-catalog-number {
@@ -261,23 +259,17 @@ a:active {
   padding: 0;
 }
 
-#release-thumbs li img{
-  /* padding-right: 20px; */
-}
-
 .release-thumb {
   display: block;
   float: left;
-  /* width: 475px; */
-  height: 220px;
-  width: 220px;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  height: 170px;
+  width: 170px;
+  margin-right: 25px;
+  margin-top: 20px;
 }
 
 .release-thumb img {
-  margin-left: 10px;
-  margin-top: 10px;
+  padding: 5px;
 }
 
 .release-thumb:hover {
