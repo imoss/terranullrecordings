@@ -22,21 +22,21 @@ describe Slurper::File do
     subject { file.import }
 
     before do
-      file.stub(:input).and_return(input)
+      allow(file).to receive(:input).and_return(input)
     end
 
     it 'should create 2 news items' do
-      subject.count.should == 2
+      expect(subject.count).to eq(2)
 
-      subject.first.title.should == 'TERNUL004 Announced'
-      subject.first.date_text.should == 'June 24th, 2014'
-      subject.first.featured_image.should == '/assets/TERNUL_art_004_small.jpg'
-      subject.first.content.should == 'Listen <a href="/#/releases/nyctophobia-the-remixes-ep">here</a>'
+      expect(subject.last.title).to eq('TERNUL004 Announced')
+      expect(subject.last.date_text).to eq('June 24th, 2014')
+      expect(subject.last.featured_image).to eq('/assets/TERNUL_art_004_small.jpg')
+      expect(subject.last.content).to eq('Listen <a href="/#/releases/nyctophobia-the-remixes-ep">here</a>')
 
-      subject.last.title.should == 'NullCast 003 Launches'
-      subject.last.date_text.should == 'June 17th, 2014'
-      subject.last.featured_image.should == '/assets/nullcast003-art-small.jpg'
-      subject.last.content.should == 'The third episode: now available'
+      expect(subject.first.title).to eq('NullCast 003 Launches')
+      expect(subject.first.date_text).to eq('June 17th, 2014')
+      expect(subject.first.featured_image).to eq('/assets/nullcast003-art-small.jpg')
+      expect(subject.first.content).to eq('The third episode: now available')
     end
   end
 end

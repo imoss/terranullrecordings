@@ -23,10 +23,10 @@ group :doc do
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '~> 2.3.0'
   gem 'rspec-rails'
   gem 'turnip'
-  gem 'capybara-webkit', '~> 1.1.0'
+  gem 'capybara-webkit', '~> 1.2.0'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
   gem 'fabrication'
