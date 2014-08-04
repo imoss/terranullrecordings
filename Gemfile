@@ -17,6 +17,8 @@ gem 'ember-source'
 gem 'decent_exposure'
 gem 'pry'
 gem 'devise'
+gem "twitter-bootstrap-rails"
+gem 'bootstrap_form'
 
 group :doc do
   gem 'sdoc', require: false
