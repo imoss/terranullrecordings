@@ -3,6 +3,8 @@ class Release < ActiveRecord::Base
 
   has_slug :title
 
+  default_scope -> { order 'created_at DESC' }
+
   def released?
     beatport_link || juno_link || itunes_link || bandcamp_link
   end

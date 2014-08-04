@@ -1,0 +1,27 @@
+= form_for podcast, url: admin_podcast_path(podcast.id) do |f|
+  .input
+    = f.label :title
+    = f.text_field :title
+
+  .input
+    = f.label :artist
+    = f.text_field :artist
+
+  .input
+    = f.label :thumbnail_src
+    = f.text_field :thumbnail_src
+
+  .input
+    = f.label :large_cover_src
+    = f.text_field :large_cover_src
+
+  .input
+    = f.label :embed_code
+    = f.text_area :embed_code
+
+  .input
+    = f.label :tracklist
+    = f.text_area :tracklist
+
+  = f.submit
+

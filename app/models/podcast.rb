@@ -3,6 +3,8 @@ class Podcast < ActiveRecord::Base
 
   has_slug :title
 
+  default_scope -> { order 'created_at DESC' }
+
   def to_hash
     {
       id: slug,

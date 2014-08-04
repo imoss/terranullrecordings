@@ -37,7 +37,7 @@ module Slurper
     end
 
     def import_new_records
-      raw_records.map { |r| Record.create!(associated_class, r) }
+      raw_records.reverse.map { |r| Record.create!(associated_class, r) }
     end
 
     def input

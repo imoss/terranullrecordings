@@ -66,7 +66,6 @@ ActiveRecord::Schema.define(version: 20140721050018) do
     t.string   "beatport_link"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "free_link"
     t.string   "bandcamp_link"
   end
 

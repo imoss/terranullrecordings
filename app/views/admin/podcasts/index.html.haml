@@ -1,0 +1,6 @@
+- podcasts.each do |podcast|
+  .podcast
+    = podcast.title
+    = link_to 'Edit', edit_admin_podcast_path(podcast)
+= link_to 'Create New', new_admin_podcast_path
+= link_to 'Back', admin_root_path
