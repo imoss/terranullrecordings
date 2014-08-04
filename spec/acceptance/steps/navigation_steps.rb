@@ -14,4 +14,8 @@ module NavigationSteps
   step "I am on the show page for that release" do
     visit release_path(@release.slug)
   end
+
+  step "I am on the releases admin index page" do
+    visit admin_releases_path
+  end
 end

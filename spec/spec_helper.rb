@@ -16,6 +16,7 @@ RSpec.configure do |config|
   config.include FabricationSteps
   config.include WebSteps
   config.include DebugSteps
+  config.include AuthenticationSteps
 
   Capybara.javascript_driver = :webkit
 

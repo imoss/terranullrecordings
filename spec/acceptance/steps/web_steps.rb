@@ -19,8 +19,16 @@ module WebSteps
     click_link link
   end
 
+  step "I press :button" do |button|
+    click_button button
+  end
+
   step "I should see the image :image_path which links to :release_path" do |image_path, release_path|
     link = find(:xpath, "//a[@href='#{release_path}']")
     within(link) { expect(page).to(have_xpath("//img[@src='#{image_path}']")) }
+  end
+
+  step "I fill in :field with :content" do |field, content|
+    fill_in field, with: content
   end
 end

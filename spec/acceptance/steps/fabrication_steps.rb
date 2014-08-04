@@ -22,6 +22,10 @@ module FabricationSteps
     end
   end
 
+  step "an admin" do
+    @admin = Fabricate(:admin)
+  end
+
   def build_attributes_from_vertical_table(table)
     table.raw.inject({}) do |hash, attribute|
       hash.merge(attribute.first.to_sym => attribute.last)
