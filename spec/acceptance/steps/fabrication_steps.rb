@@ -16,10 +16,20 @@ module FabricationSteps
     end
   end
 
+  step "the following news item:" do |table|
+    attributes = build_attributes_from_vertical_table(table)
+    @news_item = Fabricate(:news_item, attributes)
+  end
+
   step "the following podcasts:" do |table|
     @podcasts = table.hashes.map do |attributes|
       Fabricate(:podcast, attributes)
     end
+  end
+
+  step "the following podcast:" do |table|
+    attributes = build_attributes_from_vertical_table(table)
+    @podcast = Fabricate(:podcast, attributes)
   end
 
   step "an admin" do

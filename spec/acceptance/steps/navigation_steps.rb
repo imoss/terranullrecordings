@@ -18,4 +18,8 @@ module NavigationSteps
   step "I am on the releases admin index page" do
     visit admin_releases_path
   end
+
+  step "I am on the news items admin index page" do
+    visit admin_news_items_path
+  end
 end
