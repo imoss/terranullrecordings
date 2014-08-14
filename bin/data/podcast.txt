@@ -1,3 +1,32 @@
+title: NullCast 004|
+artist: Bombardier|
+embed_code:
+<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/163118814&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+thumbnail_src: /assets/nullcast004-art-small.jpg|
+large_cover_src: /assets/nullcast004-art-large.jpg|
+tracklist:
+Bombardier - Beirut [D13 S04]<br/>
+Bombardier - Hidden Razor (DISIR Remix) [SquareWav 7]<br/>
+Bombardier - Syn (Eye-D Remix) [Low Res 17]<br/>
+Larrge - Doppler (Bombardier Remix) [Terra Null 5]<br/>
+Bombardier - Feral<br/>
+Bombardier - Syn (Christoph De Babalon Remix) [Low Res 17]<br/>
+Bombardier - Control Voltage (Void Tactical 3)<br/>
+Bombardier - Rise of the Machines<br/>
+Bombardier - Casteljau [D13 S02]<br/>
+Bombardier - Unidentified [SquareWav 7]<br/>
+Bombardier - Syn [Low Res 3]<br/>
+Bombardier - Cataclysm [D13 S01]<br/>
+Bombardier - Vice [D13 S03]<br/>
+Bombardier - Machine [Low Res 3]<br/>
+Bombardier - Vision of Things to Come [Dark Industry 9]<br/>
+Bombardier - Pressure<br/>
+Bombardier - Hidden Razor [SquareWav 7]<br/>
+Bombardier - Instinct [D13 012\<br/>
+Bombardier - Leviathan [Dark Industry 9]<br/>
+Bombardier - Pale [D13 003]<br/>
+Bombardier - Sands of Time [D13 015]<br/>
+****
 title: NullCast 003|
 artist: Epilleptech|
 embed_code:
