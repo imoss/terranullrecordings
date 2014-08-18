@@ -1,10 +1,7 @@
 Terranullrecordings.Podcast = DS.Model.extend(
   title: DS.attr("string")
   artist: DS.attr("string")
-  description: DS.attr("string")
-  listen_link: DS.attr("string")
   embed_code: DS.attr("string")
-  date_text: DS.attr("string")
   thumbnail_src: DS.attr("string")
   tracklist: DS.attr("string")
   large_cover_src: DS.attr("string")
