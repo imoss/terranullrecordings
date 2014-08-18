@@ -1,9 +1,9 @@
 class Admin::PodcastsController < AdminController
-  expose(:podcasts, attributes: :podcast_params)
-  expose(:podcast)
+  expose(:podcast, attributes: :podcast_params)
+  expose(:podcasts)
 
   def create
-    redirect_to podcast_path(podcast.slug) if podcast.save
+    redirect_to podcasts_path if podcast.save
   end
 
   def destroy
@@ -11,7 +11,7 @@ class Admin::PodcastsController < AdminController
   end
 
   def update
-    redirect_to podcast_path(podcast.slug) if podcast.save
+    redirect_to podcasts_path if podcast.save
   end
 
   private

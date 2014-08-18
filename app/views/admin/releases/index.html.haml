@@ -2,6 +2,6 @@
   .release
     = release.title
     = link_to 'Edit', edit_admin_release_path(release)
-    = link_to 'Delete', edit_admin_release_path(release), method: 'delete'
+    = link_to 'Delete', admin_release_path(release), method: 'delete'
 = link_to 'Create New', new_admin_release_path
 = link_to 'Back', admin_root_path

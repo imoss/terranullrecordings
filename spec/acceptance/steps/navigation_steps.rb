@@ -22,4 +22,8 @@ module NavigationSteps
   step "I am on the news items admin index page" do
     visit admin_news_items_path
   end
+
+  step "I am on the pocast admin index page" do
+    visit admin_podcasts_path
+  end
 end
