@@ -109,6 +109,10 @@ large_cover_src: /assets/TERNUL_art_005_large.jpg|
 cover_src: /assets/TERNUL_art_005_medium.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_005_small.jpg|
 release_date: August 18th, 2014|
+juno_link: http://www.junodownload.com/products/larrge-doppler/2537173-02/|
+itunes_link: https://itunes.apple.com/us/album/doppler-single/id901211362|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/doppler|
+beatport_link: http://www.beatport.com/release/doppler/1347789|
 description:
 <div class="release-track">
 A. Larrge - Doppler<br/>
