@@ -1,0 +1,7 @@
+= bootstrap_form_for news_item, url: admin_news_item_path(news_item.id) do |f|
+  = f.text_field :title
+  = f.text_field :date_text
+  = f.text_field :featured_image
+  = f.text_area :content
+
+  = f.submit

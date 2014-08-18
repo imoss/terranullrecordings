@@ -11,6 +11,7 @@ Feature: Visitor views release
       | juno_link      | http://www.junolink.com   |
       | itunes_link    | http://www.ituneslink.com |
       | beatport_link  | http://www.beatport.com   |
+      | bandcamp_link  | http://www.bandcamp.com   |
       | release_date   | Jan. 1, 2014              |
     And I am on the show page for that release
     Then I should see "THIS EP"
@@ -21,4 +22,5 @@ Feature: Visitor views release
     And I should see a link to "http://www.junolink.com"
     And I should see a link to "http://www.ituneslink.com"
     And I should see a link to "http://www.beatport.com"
+    And I should see a link to "http://www.bandcamp.com"
     And I should see "JAN. 1, 2014"

@@ -1,7 +1,6 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require 'turnip/capybara'
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
@@ -17,6 +16,7 @@ RSpec.configure do |config|
   config.include FabricationSteps
   config.include WebSteps
   config.include DebugSteps
+  config.include AuthenticationSteps
 
   Capybara.javascript_driver = :webkit
 
