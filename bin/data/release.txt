@@ -122,3 +122,18 @@ A. Larrge - Doppler<br/>
 B. Larrge - Doppler (Bombardier Remix)<br/>
 <object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/162662039&amp;color=a4a4a4&amp;inverse=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/155825859&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object><br/>
 </div>
+****
+title: Punishment / Ritual|
+artist: Woulg|
+catalog_number: TERNUL006|
+large_cover_src: /assets/TERNUL_art_006_large.jpg|
+cover_src: /assets/TERNUL_art_006_medium.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_006_small.jpg|
+release_date: September 22nd, 2014|
+description:
+<div class="release-track">
+A. Woulg - Punishment<br/>
+</div>
+<div class="release-track">
+B. Woulg - Ritual<br/>
+</div>
