@@ -133,6 +133,7 @@ release_date: September 22nd, 2014|
 juno_link: http://www.junodownload.com/products/woulg-punishment-ritual/2563806-02/|
 itunes_link: https://itunes.apple.com/us/album/punishment-ritual-single/id912246974|
 bandcamp_link: https://terranullrecordings.bandcamp.com/album/punishment-ritual|
+beatport_link: http://www.beatport.com/release/punishment-ritual/1369083|
 description:
 <div class="release-track">
 A. Woulg - Punishment<br/>
