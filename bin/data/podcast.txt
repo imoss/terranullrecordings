@@ -1,7 +1,34 @@
+title: NullCast 005|
+artist: Clima|
+embed_code:
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176224756&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
+thumbnail_src: /assets/nullcast005-art-small.jpg|
+large_cover_src: /assets/nullcast005-art-large.jpg|
+tracklist:
+?????<br/>
+Cirrus - Diacria<br/>
+Concealed Identity - Trenches<br/>
+Clima - Holy Deep<br/>
+The Last Hero - Helios Alpha<br/>
+Homemade Weapons - Tantrum (Red Army remix)<br/>
+Epilleptech - Natural Selection (Gremlinz remix)<br/>
+?????<br/>
+Dailiv - Catacomb<br/>
+Cern & Overlook - Nevada Ghost<br/>
+?????<br/>
+SB81 - Arq<br/>
+?????<br/>
+Kolectiv & Dexta & Mauoq - Temper Glass<br/>
+?????<br/>
+?????<br/>
+Pessimist & Understate - Hypnosis<br/>
+?????<br/>
+Dominic Ridgway & Clima - Montoya
+****
 title: NullCast 004|
 artist: Bombardier|
 embed_code:
-<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/163118814&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163118814&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
 thumbnail_src: /assets/nullcast004-art-small.jpg|
 large_cover_src: /assets/nullcast004-art-large.jpg|
 tracklist:
@@ -30,7 +57,7 @@ Bombardier - Sands of Time [D13 015]<br/>
 title: NullCast 003|
 artist: Epilleptech|
 embed_code:
-<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/154841283&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
 thumbnail_src: /assets/nullcast003-art-small.jpg|
 large_cover_src: /assets/nullcast003-art-large.jpg|
 tracklist:
@@ -62,7 +89,7 @@ Ivy Lab & Hydro - Make it Clear feat. Frank Carter III & Lucy Annika [Metalheadz
 title: NullCast 002|
 artist: Create Her|
 embed_code:
-<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/138244746&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/138244746&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138244746&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
 thumbnail_src: /assets/nullcast002_art-small.jpg|
 large_cover_src: /assets/nullcast002_art-large.jpg|
 tracklist:
@@ -101,7 +128,7 @@ Machine Code - "Tentacles" [Subsistenz]
 title: NullCast 001|
 artist: Cirrus|
 embed_code:
-<object height="18" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" width="100%" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/tracks/127742221%3Fsecret_token%3Ds-Gypxo&amp;color=a4a4a4&amp;auto_play=false&amp;player_type=tiny"></embed></object>|
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127742221&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
 thumbnail_src: /assets/nullcast001_art-small.jpg|
 large_cover_src: /assets/nullcast001_art-large.jpg|
 tracklist:
