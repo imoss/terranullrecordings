@@ -3,7 +3,7 @@ Terranullrecordings.ReleaseView = Ember.View.extend(
   didInsertElement: ->
     that = this
     $("#release-thumbs-wrapper").animate
-      top: "555px"
+      top: "600px"
     , ->
       that.$().hide().fadeIn "slow"
       return

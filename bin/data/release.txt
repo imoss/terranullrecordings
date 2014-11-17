@@ -143,3 +143,33 @@ A. Woulg - Punishment<br/>
 B. Woulg - Ritual<br/>
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168845308&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
 </div>
+****
+title: Expeditions EP Vol. 1|
+catalog_number: TERNUL007|
+large_cover_src: /assets/TERNUL_art_007_800x800.jpg|
+cover_src: /assets/TERNUL_art_007_400x400.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_007-220x220.jpg|
+release_date: November 17th, 2014|
+juno_link: http://www.junodownload.com/products/expeditions-vol-1/2610554-02/|
+itunes_link: https://itunes.apple.com/gb/album/expeditions-volume-1-ep/id931309096|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/expeditions-ep-vol-1|
+description:
+<div class="release-track">
+A. Clima - Holy Deep<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176447850&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+B. The Last Hero - Helios Alpha<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176565041&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+C. Dailiv - Catacomb<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/176728178&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+D. Cirrus - Diacria<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3a//api.soundcloud.com/tracks/176888937&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+E. DYL & Epilleptech - Apollo<br/>
+</div>
