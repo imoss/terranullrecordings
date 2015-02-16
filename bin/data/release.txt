@@ -177,7 +177,7 @@ E. DYL & Epilleptech - Apollo<br/>
 ****
 title: Daggers EP|
 catalog_number: TERNUL008|
-large_cover_src: /assets/TERNUL_art_007_800x800.jpg|
+large_cover_src: /assets/TERNUL_art_008_800x800.jpg|
 cover_src: /assets/TERNUL_art_008_400x400.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_008-220x220.jpg|
 release_date: February 16th, 2015|
