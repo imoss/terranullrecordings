@@ -240,7 +240,7 @@ a:active {
 
 #release-thumbs {
   float: left;
-  margin-bottom: 75px;
+  margin-bottom: 0;
 }
 
 .release-thumb-catalog-number {
@@ -368,12 +368,12 @@ a:active {
 }
 
 .about-text p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #demo-reqs {
   list-style-type: circle;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff
 }
 
@@ -421,7 +421,7 @@ a:active {
 }
 
 .news-item p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 21px;
 }
 
@@ -505,7 +505,7 @@ a:active {
   text-transform: none;
   font-size: 16px;
   line-height: 10px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #444;
 }
 

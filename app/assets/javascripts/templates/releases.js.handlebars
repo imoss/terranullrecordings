@@ -3,15 +3,17 @@
   <div class="clear"></div>
 </div>
 <div id="release-thumbs-wrapper">
+  {{#each group in controller.series}}
   <ul id="release-thumbs">
-    {{#each model}}
+    {{#each model in group.items}}
     <li>
     {{#linkTo 'release' this class='release-thumb'}}
-    <img {{bindAttr src="cover_thumbnail_src"}} height='170px' class="cover-art"/>
+    <img {{bindAttr src="model.cover_thumbnail_src"}} height='170px' class="cover-art"/>
     {{/linkTo}}
     <div class="clear"></div>
     </li>
     {{/each}}
   </ul>
+  {{/each}}
 </div>
 

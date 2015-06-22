@@ -13,5 +13,6 @@ Terranullrecordings.Release = DS.Model.extend(
   bandcamp_link: DS.attr("string")
   released: DS.attr("boolean",
     defaultValue: false
-  )
+  ),
+  art_series: DS.attr("number")
 )

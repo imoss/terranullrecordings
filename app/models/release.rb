@@ -24,7 +24,8 @@ class Release < ActiveRecord::Base
       itunes_link: itunes_link,
       beatport_link: beatport_link,
       bandcamp_link: bandcamp_link,
-      released: released?
+      released: released?,
+      art_series: art_series
     }
   end
 end

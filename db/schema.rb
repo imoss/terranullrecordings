@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140818141308) do
+ActiveRecord::Schema.define(version: 20150621210920) do
 
   create_table "admins", force: true do |t|
     t.string   "email",               default: "", null: false
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(version: 20140818141308) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "bandcamp_link"
+    t.integer  "art_series"
   end
 
 end

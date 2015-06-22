@@ -14,6 +14,7 @@ Feature: Admin edits a release
       | bandcamp_link  | bandcamp_linky  |
       | beatport_link  | beatport_linky  |
       | release_date   | thedate         |
+      | art_series     | 1               |
     And that admin is signed in
     And I am on the releases admin index page
     And I click "Edit"
