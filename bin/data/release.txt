@@ -248,7 +248,7 @@ catalog_number: TERNUL010|
 large_cover_src: /assets/TERNUL_art_010_800x800.jpg|
 cover_src: /assets/TERNUL_art_010_400x400.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_010-220x220.jpg|
-release_date: June 22nd, 2015
+release_date: June 22nd, 2015|
 art_series: 3|
 description:
 <div class="release-track">
