@@ -249,6 +249,10 @@ large_cover_src: /assets/TERNUL_art_010_800x800.jpg|
 cover_src: /assets/TERNUL_art_010_400x400.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_010-220x220.jpg|
 release_date: June 22nd, 2015|
+juno_link: http://www.junodownload.com/products/suboreal-nivision/2801251-02/|
+itunes_link: https://itunes.apple.com/us/album/nivision-spiral-single/id996598807|
+beatport_link: https://pro.beatport.com/release/nivision-spiral/1538313|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/nivision-spiral|
 art_series: 3|
 description:
 <div class="release-track">
