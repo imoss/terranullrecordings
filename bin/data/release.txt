@@ -274,6 +274,7 @@ release_date: September 21st, 2015|
 juno_link: http://www.junodownload.com/products/epilleptech-recluse/2875211-02/|
 itunes_link: https://itunes.apple.com/us/album/recluse-ep/id1033039065|
 bandcamp_link: http://terranullrecordings.bandcamp.com/album/recluse-ep|
+beatport_link: https://pro.beatport.com/release/recluse/1596980|
 art_series: 3|
 description:
 <div class="release-track">
