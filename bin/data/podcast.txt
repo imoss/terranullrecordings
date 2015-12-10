@@ -1,3 +1,58 @@
+title: NullCast 009|
+artist: Owl|
+embed_code:
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236054587&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
+thumbnail_src: /assets/nullcast009_art-small.jpg|
+large_cover_src: /assets/nullcast009_art-large.jpg|
+tracklist:
+??? - ???<br/>
+ILL_K - Displace<br/>
+??? - ???<br/>
+??? - ???<br/>
+Sam KDC - Foundation<br/>
+They Live - What We Promise<br/>
+Owl - Rhea Calling<br/>
+ASC - Response Code<br/>
+Broken Promise & Chet Matuto - Catapult<br/>
+Eissi - Fallingrain<br/>
+Jalex - Winter in Wsevolozgsk<br/>
+Erkiu - Hollow Idol<br/>
+??? - ???<br/>
+Naibu - Fighting for Attention<br/>
+Epilleptech - Meraki<br/>
+Owl & ILL_K - Space Totem<br/>
+Cirrus - Smoke<br/>
+Cirrus - Diacria (Fearful Remix)<br/>
+Clearlight & Owl - White Mountain
+****
+title: NullCast 008|
+artist: Epilleptech|
+embed_code:
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225948889&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>|
+thumbnail_src: /assets/nullcast008_art-small.jpg|
+large_cover_src: /assets/nullcast008_art-large.jpg|
+tracklist:
+Last Hero - Twelve Colonies<br/>
+Overlook - Clouds<br/>
+Clarity & Overlook - Octal<br/>
+Epilleptech - Stand Tall<br/>
+Homemade Weapons - Slowburn<br/>
+Codex - Vodun<br/>
+??? - ???<br/>
+Pessimist - The Woods<br/>
+Loxy, Resound, & Overlook - The Lodge<br/>
+Red Army & Epilleptech - Jungle Thief<br/>
+Epilleptech - Meraki<br/>
+??? - ???<br/>
+Ruffhouse & Clarity - Persecute<br/>
+??? - ???<br/>
+??? - ???<br/>
+Red Army - Brevity Code (Epilleptech Remix)<br/>
+Red Army & Epilleptech - Fear<br/>
+Epilleptech - Recluse<br/>
+Cirrus - Angel<br/>
+??? - ???
+****
 title: NullCast 007|
 artist: DYL|
 embed_code:
