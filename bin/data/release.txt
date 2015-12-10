@@ -297,9 +297,9 @@ D. Epilleptech - Nyctophobia VIP<br/>
 title: Space Totem / Obscure Brightness|
 artist: Owl & ILL K|
 catalog_number: TERNUL012|
-large_cover_src: /assets/TERNUL012_art_800x800.jpg|
-cover_src: /assets/TERNUL012_art_400x400.jpg|
-cover_thumbnail_src: /assets/TERNUL012_art_220x220.jpg|
+large_cover_src: /assets/TERNUL_art_012_800x800.jpg|
+cover_src: /assets/TERNUL_art_012_400x400.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_012_220x220.jpg|
 release_date: December 14, 2015|
 art_series: 3|
 description:
