@@ -302,6 +302,10 @@ cover_src: /assets/TERNUL_art_012_400x400.jpg|
 cover_thumbnail_src: /assets/TERNUL_art_012_220x220.jpg|
 release_date: December 14, 2015|
 art_series: 3|
+juno_link: http://www.junodownload.com/products/owl-ill-k-space-totem-obscure-brightness/2943134-02/|
+itunes_link: https://itunes.apple.com/us/album/space-totem-obscure-brightness/id1059353348|
+bandcamp_link: http://terranullrecordings.bandcamp.com/album/space-totem-obscure-brightness|
+beatport_link: https://pro.beatport.com/release/space-totem-obscure-brightness/1655954|
 description:
 <div class="release-track">
 A. Owl & ILL K - Space Totem<br/>
@@ -309,4 +313,5 @@ A. Owl & ILL K - Space Totem<br/>
 </div>
 <div class="release-track">
 B. Owl - Obscure Brightness<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237084904&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
 </div>
