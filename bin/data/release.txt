@@ -315,3 +315,22 @@ A. Owl & ILL K - Space Totem<br/>
 B. Owl - Obscure Brightness<br/>
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237084904&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
 </div>
+****
+title: The Remixes Vol 2|
+artist: Cirrus
+catalog_number: TERNUL013|
+large_cover_src: /assets/TERNUL_art_013_800x800.jpg|
+cover_src: /assets/TERNUL_art_013_400x400.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_013_220x220.jpg|
+release_date: February 15, 2016|
+art_series: 4|
+juno_link: http://www.junodownload.com/products/cirrus-the-remixes-volume-2/2976524-02/|
+itunes_link: https://itunes.apple.com/us/album/the-remixes-volume-2-single/id1070537414|
+bandcamp_link: https://terranullrecordings.bandcamp.com/album/the-remixes-vol-2|
+description:
+<div class="release-track">
+A. Cirrus - Diacria (Fearful Remix)<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246031874&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+B. Cirrus - Angel (Fuj Remix)<br/>
