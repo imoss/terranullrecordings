@@ -317,7 +317,7 @@ B. Owl - Obscure Brightness<br/>
 </div>
 ****
 title: The Remixes Vol 2|
-artist: Cirrus
+artist: Cirrus|
 catalog_number: TERNUL013|
 large_cover_src: /assets/TERNUL_art_013_800x800.jpg|
 cover_src: /assets/TERNUL_art_013_400x400.jpg|

@@ -1,6 +1,6 @@
 title: DNB DOJO MIX SERIES 25: CIRRUS|
 date_text: February 14th, 2016|
-featured_image: /assets/|
+featured_image: /assets/dnb_dojo.jpg|
 content:
 Bloglove:<br/>
 <br/>
@@ -10,7 +10,7 @@ Bloglove:<br/>
 ****
 title: TERNUL013 IN CRANIUM SESSION 018|
 date_text: February 13th, 2016|
-featured_image: /assets/|
+featured_image: /assets/cranium_session.jpg|
 content:
 Podcastlove:<br/>
 <br/>
@@ -20,7 +20,7 @@ Podcastlove:<br/>
 ****
 title: TERNUL013 ON NOISIA RADIO S02E04|
 date_text: February 12th, 2016|
-featured_image: /assets/|
+featured_image: /assets/noisia_radio.jpg|
 content:
 Podcastlove:<br/>
 <br/>
