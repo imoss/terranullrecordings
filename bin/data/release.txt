@@ -327,6 +327,7 @@ art_series: 4|
 juno_link: http://www.junodownload.com/products/cirrus-the-remixes-volume-2/2976524-02/|
 itunes_link: https://itunes.apple.com/us/album/the-remixes-volume-2-single/id1070537414|
 bandcamp_link: https://terranullrecordings.bandcamp.com/album/the-remixes-vol-2|
+beatport_link: https://pro.beatport.com/release/the-remixes-volume-2/1682051|
 description:
 <div class="release-track">
 A. Cirrus - Diacria (Fearful Remix)<br/>
@@ -334,5 +335,31 @@ A. Cirrus - Diacria (Fearful Remix)<br/>
 </div>
 <div class="release-track">
 B. Cirrus - Angel (Fuj Remix)<br/>
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247125100&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247125100&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+****
+title: Expeditions EP Vol. 2|
+catalog_number: TERNUL014|
+large_cover_src: /assets/TERNUL_art_014_800x800.jpg|
+cover_src: /assets/TERNUL_art_014_400x400.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_014_220x220.jpg|
+release_date: May 2nd, 2016|
+art_series: 4|
+juno_link: http://www.junodownload.com/products/heden-dyl-eelko-antagonist-expeditions-volume-2/3031554-02/|
+bandcamp_link: https://terranullrecordings.bandcamp.com/album/expeditions-ep-vol-2|
+description:
+<div class="release-track">
+A. Heden & DYL - Washed Out<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260370012&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+B. eelko - Group 9<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261176670&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+C. Antagonist - Ahnenerbe<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261506725&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+D. Cirrus - Smoke<br/>
 </div>
