@@ -14,6 +14,6 @@ Terranullrecordings.ReleasesController = Ember.ArrayController.extend(
           value: value
           items: [ item ]
         groups.push group
-    groups
+    groups.reverse()
   ).property('content.[]')
 )

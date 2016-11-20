@@ -235,11 +235,12 @@ a:active {
 }
 
 #release-thumbs {
-  margin: 0;
   padding: 0;
+  margin: 0 0 15px 0;
   display: block;
   width: 1000px;
   height: 170px;
+  float: left;
 }
 
 .release-thumb-catalog-number {
@@ -252,19 +253,18 @@ a:active {
   letter-spacing: 10px;
 }
 
-#release-thumbs li{
+#release-thumbs li {
   float: left;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 15px;
+}
+
+#release-thumbs li img {
+  border: 1px solid #a4a4a4;
 }
 
 .release-thumb {
   display: block;
-}
-
-.release-thumb img {
-  padding-right: 25px;
-  padding-top: 20px;
 }
 
 .release-thumb:hover {
@@ -294,6 +294,7 @@ a:active {
 
 .release .cover-art {
   margin-top: 4px;
+  border: 1px solid #a4a4a4;
 }
 
 .release-copy {

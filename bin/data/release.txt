@@ -347,6 +347,8 @@ release_date: May 2nd, 2016|
 art_series: 4|
 juno_link: http://www.junodownload.com/products/heden-dyl-eelko-antagonist-expeditions-volume-2/3031554-02/|
 bandcamp_link: https://terranullrecordings.bandcamp.com/album/expeditions-ep-vol-2|
+itunes_link: https://itunes.apple.com/us/album/expeditions-volume-2-ep/id1089189024|
+beatport_link: https://www.beatport.com/release/expeditions-volume-2/1722576|
 description:
 <div class="release-track">
 A. Heden & DYL - Washed Out<br/>
@@ -362,4 +364,34 @@ C. Antagonist - Ahnenerbe<br/>
 </div>
 <div class="release-track">
 D. Cirrus - Smoke<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262032531&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+****
+title: Woyo EP|
+catalog_number: TERNUL015|
+large_cover_src: /assets/TERNUL_art_015_800x800.jpg|
+cover_src: /assets/TERNUL_art_015_400x400.jpg|
+cover_thumbnail_src: /assets/TERNUL_art_015_220x220.jpg|
+release_date: October 7th, 2016|
+art_series: 5|
+juno_link: http://www.junodownload.com/products/noh-vae-woyo-ep/3209731-02/|
+bandcamp_link: https://terranullrecordings.bandcamp.com/album/woyo-ep|
+itunes_link: https://itunes.apple.com/us/album/woyo-ep/id1153439427|
+beatport_link: https://www.beatport.com/release/woyo-ep/1851317|
+description:
+<div class="release-track">
+A. Noh Vae - Acre Lane<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285870088&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+B. Noh Vae - Lopuna Blanca<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/286335832&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+C. Noh Vae - Woyo<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284706645&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
+</div>
+<div class="release-track">
+D. Noh Vae - Shamanism<br/>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285440023&amp;color=a4a4a4&amp;inverse=true&amp;auto_play=false&amp;show_user=true"></iframe><br/>
 </div>
