@@ -6,4 +6,9 @@ class ApplicationController < ActionController::Base
   decent_configuration do
     strategy DecentExposure::StrongParametersStrategy
   end
+
+  before_filter :redirect_to_bandcamp
+  def redirect_to_bandcamp
+    redirect_to 'http://terranullrecordings.bandcamp.com'
+  end
 end
